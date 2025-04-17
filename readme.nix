@@ -15,7 +15,7 @@ in
       ++ (mapAttrsToList (
           _: pkg: let
             name = pkg.pname or pkg.name;
-            version = pkg.version or "-";
+            inherit (pkg) version;
             inherit (pkg.meta) description;
           in "| ${name} | ${version} | ${description} |"
         )
