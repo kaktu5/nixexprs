@@ -1,0 +1,13 @@
+*
+!npins/
+!npins/**
+!pkgs/
+!pkgs/**
+!.editorconfig
+!.gitignore
+!flake.lock
+!flake.nix
+!LICENSE
+!README.md
+!readme.nix
+!treefmt.nix
