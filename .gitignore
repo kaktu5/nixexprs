@@ -1,8 +1,8 @@
 *
+!exprs/
+!exprs/**
 !npins/
 !npins/**
-!pkgs/
-!pkgs/**
 !.editorconfig
 !.gitignore
 !flake.lock
