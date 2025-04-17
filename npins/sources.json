@@ -1,0 +1,64 @@
+{
+  "pins": {
+    "compile-mode.nvim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "ej-shafran",
+        "repo": "compile-mode.nvim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v5.6.0",
+      "revision": "f999e5a928bbadacd6affee74a95bc22731cfed6",
+      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.6.0",
+      "hash": "1fg854gcc7br6wjz8xhr5c3m6idn7zf5m8i6g12ix0l5qvllb1mm"
+    },
+    "dm-mono": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "googlefonts",
+        "repo": "dm-mono"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "57fadabfb200a77de2812540026c249dc3013077",
+      "url": "https://github.com/googlefonts/dm-mono/archive/57fadabfb200a77de2812540026c249dc3013077.tar.gz",
+      "hash": "07y3csk0vy3b3mq33bb73m63p9vyk8dhf6ysqnxabdpvy6d98gjy"
+    },
+    "hyprland-preview-share-picker": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "whysobad",
+        "repo": "hyprland-preview-share-picker"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.2.0",
+      "revision": "fcf1f2784296019875a8fc7ad6276f2b0cef5330",
+      "url": "https://api.github.com/repos/whysobad/hyprland-preview-share-picker/tarball/v0.2.0",
+      "hash": "0p620pmq9l557wdngnbwqkziwk01dgqj3whf5l2vxb5bxaj7qfi2"
+    },
+    "linux-xanmod-bore": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "micros24",
+        "repo": "linux-xanmod-bore"
+      },
+      "branch": "update",
+      "submodules": false,
+      "revision": "a8b4b82764d4b614b82372197ae4e0425b1334a7",
+      "url": "https://github.com/micros24/linux-xanmod-bore/archive/a8b4b82764d4b614b82372197ae4e0425b1334a7.tar.gz",
+      "hash": "11qw69qh7mjcw0js52qyblzwx3j8ppp2l80sgg1zqq2jf8947vn9",
+      "frozen": true
+    }
+  },
+  "version": 5
+}
