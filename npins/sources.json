@@ -59,22 +59,6 @@
       "hash": "11qw69qh7mjcw0js52qyblzwx3j8ppp2l80sgg1zqq2jf8947vn9",
       "frozen": true
     },
-    "user.js": {
-      "type": "GitRelease",
-      "repository": {
-        "type": "GitHub",
-        "owner": "arkenfox",
-        "repo": "user.js"
-      },
-      "pre_releases": false,
-      "version_upper_bound": null,
-      "release_prefix": null,
-      "submodules": false,
-      "version": "135.0",
-      "revision": "3d76c74c80485931425464fec0e59d6cb461677a",
-      "url": "https://api.github.com/repos/arkenfox/user.js/tarball/135.0",
-      "hash": "0xqny4g80f5ix8sdcn6irfv0w0kx1zxvsb3k8h2y7fcchibyhl6v"
-    },
     "zsh-auto-notify": {
       "type": "GitRelease",
       "repository": {
