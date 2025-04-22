@@ -29,5 +29,6 @@
       packages = exprs // {inherit readme;};
       formatter = treefmt.wrapper;
       checks.formatting = treefmt.check self;
-    });
+    })
+    // {overlays.default = _: prev: (mkExprs prev);};
 }
