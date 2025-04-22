@@ -59,6 +59,22 @@
       "hash": "11qw69qh7mjcw0js52qyblzwx3j8ppp2l80sgg1zqq2jf8947vn9",
       "frozen": true
     },
+    "vague.nvim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "vague2k",
+        "repo": "vague.nvim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "1.3.1",
+      "revision": "5a36db645d02ea4c9ffe43093aafce6b6addc72f",
+      "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/1.3.1",
+      "hash": "1118hjcrhzivl2mgy9v14mc6cc5wxhw58s4bdmb1pq2a2f8mhfvl"
+    },
     "zsh-auto-notify": {
       "type": "GitRelease",
       "repository": {
