@@ -25,6 +25,7 @@ in
     preBuild = ''
       cp -r ${pkgs.hyprland-protocols}/share/hyprland-protocols/protocols lib/hyprland-protocols/
     '';
+    stripAllList = ["bin"];
     meta = {
       description = "An alternative share picker for Hyprland with window and monitor previews";
       homepage = "https://github.com/whysobad/hyprland-preview-share-picker";
