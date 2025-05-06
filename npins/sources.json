@@ -24,10 +24,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v5.6.0",
-      "revision": "f999e5a928bbadacd6affee74a95bc22731cfed6",
-      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.6.0",
-      "hash": "1fg854gcc7br6wjz8xhr5c3m6idn7zf5m8i6g12ix0l5qvllb1mm"
+      "version": "v5.6.1",
+      "revision": "e582bfb8a14721f7635a2306582603f757283004",
+      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.6.1",
+      "hash": "1myaar1iyj67y22gxk457r3lb2arrvgcki0208a77yarp9lxsg25"
     },
     "dm-mono": {
       "type": "Git",
@@ -66,10 +66,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v0.2.0",
-      "revision": "fcf1f2784296019875a8fc7ad6276f2b0cef5330",
-      "url": "https://api.github.com/repos/whysobad/hyprland-preview-share-picker/tarball/v0.2.0",
-      "hash": "0p620pmq9l557wdngnbwqkziwk01dgqj3whf5l2vxb5bxaj7qfi2"
+      "version": "v0.2.1",
+      "revision": "211b7890ed3332f4d1bb1f1a96999e18874a9c3c",
+      "url": "https://api.github.com/repos/whysobad/hyprland-preview-share-picker/tarball/v0.2.1",
+      "hash": "143h5c4qa40y6mmwfaf17y3qzgk7s4gz0wl63km80k5i63pybq9c"
     },
     "linux-xanmod-bore": {
       "type": "Git",
@@ -78,12 +78,11 @@
         "owner": "micros24",
         "repo": "linux-xanmod-bore"
       },
-      "branch": "update",
+      "branch": "6.13",
       "submodules": false,
-      "revision": "a8b4b82764d4b614b82372197ae4e0425b1334a7",
-      "url": "https://github.com/micros24/linux-xanmod-bore/archive/a8b4b82764d4b614b82372197ae4e0425b1334a7.tar.gz",
-      "hash": "11qw69qh7mjcw0js52qyblzwx3j8ppp2l80sgg1zqq2jf8947vn9",
-      "frozen": true
+      "revision": "616f79c34091101e677edba11a3ead21447cb05d",
+      "url": "https://github.com/micros24/linux-xanmod-bore/archive/616f79c34091101e677edba11a3ead21447cb05d.tar.gz",
+      "hash": "0c1qr3zpj5i8x8p7d86p6l6k9r7jhn00937f5j79ra64kd5zd76m"
     },
     "vague.nvim": {
       "type": "GitRelease",
@@ -112,10 +111,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "0.10.1",
-      "revision": "a8b11f882d0c4c392f2de5feb34d62fc6a28273f",
-      "url": "https://api.github.com/repos/michaelaquilina/zsh-auto-notify/tarball/0.10.1",
-      "hash": "1flsap3lh6ginmch0a7fdrk5ga8ma7ync3qlqphkscdv436dg6cp"
+      "version": "0.11.0",
+      "revision": "adc0e326c2c22c96c036f5bb1ac8b6a99d1dba58",
+      "url": "https://api.github.com/repos/michaelaquilina/zsh-auto-notify/tarball/0.11.0",
+      "hash": "0iirv0ww1zygyhwyym2kmkqcjywhdg4inzmzbbjqq92x56rm3gpj"
     }
   },
   "version": 5
