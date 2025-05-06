@@ -1,5 +1,18 @@
 {
   "pins": {
+    "babylonia-terminal": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "alez-dev",
+        "repo": "babylonia-terminal"
+      },
+      "branch": "master",
+      "submodules": false,
+      "revision": "0f7fa5ba0d26114f2be8a666fee63aacb2c3ab0c",
+      "url": "https://github.com/alez-dev/babylonia-terminal/archive/0f7fa5ba0d26114f2be8a666fee63aacb2c3ab0c.tar.gz",
+      "hash": "0i1lbxjw6i2wr5x2j5g40fh4xd314br75ffx1m1v83r0a11iw8g5"
+    },
     "compile-mode.nvim": {
       "type": "GitRelease",
       "repository": {
@@ -28,6 +41,19 @@
       "revision": "57fadabfb200a77de2812540026c249dc3013077",
       "url": "https://github.com/googlefonts/dm-mono/archive/57fadabfb200a77de2812540026c249dc3013077.tar.gz",
       "hash": "07y3csk0vy3b3mq33bb73m63p9vyk8dhf6ysqnxabdpvy6d98gjy"
+    },
+    "downloader": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "alez-dev",
+        "repo": "downloader"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5572a0875ec4f04b0514342f9acff21252beb579",
+      "url": "https://github.com/alez-dev/downloader/archive/5572a0875ec4f04b0514342f9acff21252beb579.tar.gz",
+      "hash": "1sywyaabd0fzzmyjbqsx9x2p692nbnyx02807g44h788n0qrjr0i"
     },
     "hyprland-preview-share-picker": {
       "type": "GitRelease",
