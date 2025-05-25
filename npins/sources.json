@@ -95,10 +95,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "1.3.1",
-      "revision": "5a36db645d02ea4c9ffe43093aafce6b6addc72f",
-      "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/1.3.1",
-      "hash": "1118hjcrhzivl2mgy9v14mc6cc5wxhw58s4bdmb1pq2a2f8mhfvl"
+      "version": "v1.3.3",
+      "revision": "2b836c61d2f995993142ecb948c73b8de22f8c77",
+      "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/v1.3.3",
+      "hash": "1jkzzcpdz6yynvq2bq20w9dy8flkdlyjyinxbz72jrvi1y2amq1k"
     },
     "zsh-auto-notify": {
       "type": "GitRelease",
