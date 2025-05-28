@@ -29,6 +29,20 @@
       "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.6.1",
       "hash": "1myaar1iyj67y22gxk457r3lb2arrvgcki0208a77yarp9lxsg25"
     },
+    "dioxus": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "dioxuslabs",
+        "repo": "dioxus"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "b2bd1f48d434becfff9f0ea390ad8ef46996300a",
+      "url": "https://github.com/dioxuslabs/dioxus/archive/b2bd1f48d434becfff9f0ea390ad8ef46996300a.tar.gz",
+      "hash": "02gla9samxqh51g62f5ni3l1j5mwgx91ja128sqy3blgid4ms738",
+      "frozen": true
+    },
     "dm-mono": {
       "type": "Git",
       "repository": {
