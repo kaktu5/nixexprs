@@ -14,6 +14,7 @@
     treefmt-nix,
     ...
   }: let
+    inherit (nixpkgs) lib;
     mkExprs = pkgs: (import ./exprs {
       inherit pkgs;
       sources = import ./npins;
@@ -21,7 +22,6 @@
   in
     flake-utils.lib.eachSystem ["aarch64-linux" "x86_64-linux"] (system: let
       pkgs = nixpkgs.legacyPackages.${system};
-      inherit (pkgs) lib;
       exprs = mkExprs pkgs;
       readme = import ./readme.nix {inherit exprs lib pkgs;};
       treefmt = (treefmt-nix.lib.evalModule pkgs ./treefmt.nix).config.build;
