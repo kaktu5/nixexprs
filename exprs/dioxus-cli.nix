@@ -18,6 +18,7 @@ in
     useFetchCargoVendor = true;
     OPENSSL_NO_VENDOR = 1;
     doCheck = false;
+    stripAllList = ["bin"];
     meta = {
       mainProgram = "dx";
       description = "CLI tool for developing, testing, and publishing Dioxus apps.";
