@@ -26,6 +26,7 @@ in
     ];
     stripAllList = ["bin"];
     meta = {
+      mainProgram = "babylonia-terminal";
       description = "A launcher to play a certain anime game on linux";
       homepage = "https://github.com/alez-dev/babylonia-terminal";
       license = licenses.gpl3;

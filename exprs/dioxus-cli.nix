@@ -19,6 +19,7 @@ in
     OPENSSL_NO_VENDOR = 1;
     doCheck = false;
     meta = {
+      mainProgram = "dx";
       description = "CLI tool for developing, testing, and publishing Dioxus apps.";
       homepage = "https://github.com/dioxuslabs/dioxus";
       license = with licenses; [asl20 mit];
