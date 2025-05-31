@@ -2,9 +2,9 @@
   pkgs,
   sources,
 }: let
-  inherit (pkgs) lib;
   inherit (builtins) readDir;
   inherit (lib) attrNames filter listToAttrs map removeSuffix;
+  inherit (pkgs) lib;
 in (
   readDir ./.
   |> attrNames
