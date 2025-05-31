@@ -92,11 +92,11 @@
         "owner": "micros24",
         "repo": "linux-xanmod-bore"
       },
-      "branch": "6.13",
+      "branch": "6.14",
       "submodules": false,
-      "revision": "616f79c34091101e677edba11a3ead21447cb05d",
-      "url": "https://github.com/micros24/linux-xanmod-bore/archive/616f79c34091101e677edba11a3ead21447cb05d.tar.gz",
-      "hash": "0c1qr3zpj5i8x8p7d86p6l6k9r7jhn00937f5j79ra64kd5zd76m"
+      "revision": "8f24c4308689948b2b7ec6985e9117c9a9bc6975",
+      "url": "https://github.com/micros24/linux-xanmod-bore/archive/8f24c4308689948b2b7ec6985e9117c9a9bc6975.tar.gz",
+      "hash": "11wh1m3zjfwi40jgc25gnfkw611islw4hiclfkarzgsl6pg7g6ja"
     },
     "vague.nvim": {
       "type": "GitRelease",
@@ -109,10 +109,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v1.3.3",
-      "revision": "2b836c61d2f995993142ecb948c73b8de22f8c77",
-      "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/v1.3.3",
-      "hash": "1jkzzcpdz6yynvq2bq20w9dy8flkdlyjyinxbz72jrvi1y2amq1k"
+      "version": "v1.4.0",
+      "revision": "42cc3077dd12e4287cdf2d07ed743046740950e8",
+      "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/v1.4.0",
+      "hash": "1vwhkhrwqj78zm17hyck1wzipgb5a26w5n2fpbp69jk8v027v0l8"
     },
     "zsh-auto-notify": {
       "type": "GitRelease",
