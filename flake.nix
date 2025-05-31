@@ -30,5 +30,5 @@
       formatter = treefmt.wrapper;
       checks.formatting = treefmt.check self;
     })
-    // {overlays.default = _: prev: (mkExprs prev);};
+    // {overlays.default = _: prev: {kkts = mkExprs prev;};};
 }
