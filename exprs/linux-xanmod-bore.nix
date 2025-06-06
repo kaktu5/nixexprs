@@ -8,12 +8,13 @@
   inherit (sources) linux-xanmod-bore;
   patches = [
     "0001-bore"
-    "0002-glitched-cfs"
-    "0003-glitched-eevdf-additions"
-    "0004-o3-optimization"
+    "0002-sched-fair-Prefer-full-idle-SMT-cores"
+    "0003-glitched-cfs"
+    "0004-glitched-eevdf-additions"
+    "0005-o3-optimization"
   ];
 in
-  linux_xanmod_latest.override {
+  pkgs.linuxPackagesFor (linux_xanmod_latest.override {
     kernelPatches =
       map (patch: {
         name = patch;
@@ -27,4 +28,4 @@ in
         homepage = "https://github.com/micros24/linux-xanmod-bore";
       };
     };
-  }
+  })
