@@ -94,9 +94,9 @@
       },
       "branch": "6.14",
       "submodules": false,
-      "revision": "8f24c4308689948b2b7ec6985e9117c9a9bc6975",
-      "url": "https://github.com/micros24/linux-xanmod-bore/archive/8f24c4308689948b2b7ec6985e9117c9a9bc6975.tar.gz",
-      "hash": "11wh1m3zjfwi40jgc25gnfkw611islw4hiclfkarzgsl6pg7g6ja"
+      "revision": "4efa067618a0df68c626d6780b56ee91c3d0ac90",
+      "url": "https://github.com/micros24/linux-xanmod-bore/archive/4efa067618a0df68c626d6780b56ee91c3d0ac90.tar.gz",
+      "hash": "0xddnnwn8p8cjvxpy7zrsddzdf9wlmlsa2rivz2qqn2vr89b72s7"
     },
     "vague.nvim": {
       "type": "GitRelease",
@@ -125,10 +125,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "0.11.0",
-      "revision": "adc0e326c2c22c96c036f5bb1ac8b6a99d1dba58",
-      "url": "https://api.github.com/repos/michaelaquilina/zsh-auto-notify/tarball/0.11.0",
-      "hash": "0iirv0ww1zygyhwyym2kmkqcjywhdg4inzmzbbjqq92x56rm3gpj"
+      "version": "0.11.1",
+      "revision": "93634b25b83c9f0fa15ddc2784e49b982a3e5458",
+      "url": "https://api.github.com/repos/michaelaquilina/zsh-auto-notify/tarball/0.11.1",
+      "hash": "0pr1jab3msn966wzwpi008k0kq05j71v8ml8pcpfs4mbnzic7qfp"
     }
   },
   "version": 5
