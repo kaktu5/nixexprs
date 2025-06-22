@@ -18,14 +18,14 @@ if $lazer_release.tag_name != $info.lazer.version {
 }
 
 if $tachyon_release.tag_name != $info.tachyon.version {
-    let tachyon_url = $"https://github.com/ppy/osu/releases/download/($tachyon_release.tag_name)/osu.AppImage"
-    let tachyon_hash = (^nix store prefetch-file --json $tachyon_url | from json).hash
-    $info.tachyon = {
-        version: $tachyon_release.tag_name,
-        url: $tachyon_url,
-        hash: $tachyon_hash,
-    }
-    print $"osu-lazer-bin: updated osu!lazer \(tachyon\) to ($lazer_release.tag_name)"
+  let tachyon_url = $"https://github.com/ppy/osu/releases/download/($tachyon_release.tag_name)/osu.AppImage"
+  let tachyon_hash = (^nix store prefetch-file --json $tachyon_url | from json).hash
+  $info.tachyon = {
+    version: $tachyon_release.tag_name,
+    url: $tachyon_url,
+    hash: $tachyon_hash,
+  }
+  print $"osu-lazer-bin: updated osu!lazer \(tachyon\) to ($lazer_release.tag_name)"
 }
 
 $info | to json | save -f "./info.json"
