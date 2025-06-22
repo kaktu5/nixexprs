@@ -27,9 +27,10 @@ in
     '';
     stripAllList = ["bin"];
     meta = {
-      mainProgram = "hyprland-preview-share-picker";
       description = "An alternative share picker for Hyprland with window and monitor previews";
       homepage = "https://github.com/whysobad/hyprland-preview-share-picker";
       license = licenses.mit;
+      mainProgram = "hyprland-preview-share-picker";
+      platforms = ["aarch64-linux" "x86_64-linux"];
     };
   }
