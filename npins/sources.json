@@ -30,18 +30,20 @@
       "hash": "1myaar1iyj67y22gxk457r3lb2arrvgcki0208a77yarp9lxsg25"
     },
     "dioxus": {
-      "type": "Git",
+      "type": "GitRelease",
       "repository": {
         "type": "GitHub",
         "owner": "dioxuslabs",
         "repo": "dioxus"
       },
-      "branch": "main",
+      "pre_releases": true,
+      "version_upper_bound": null,
+      "release_prefix": null,
       "submodules": false,
-      "revision": "b2bd1f48d434becfff9f0ea390ad8ef46996300a",
-      "url": "https://github.com/dioxuslabs/dioxus/archive/b2bd1f48d434becfff9f0ea390ad8ef46996300a.tar.gz",
-      "hash": "02gla9samxqh51g62f5ni3l1j5mwgx91ja128sqy3blgid4ms738",
-      "frozen": true
+      "version": "v0.7.0-alpha.1",
+      "revision": "662cf0d90261b8540796225b78913b620ea34a8f",
+      "url": "https://api.github.com/repos/dioxuslabs/dioxus/tarball/v0.7.0-alpha.1",
+      "hash": "1z68gpq5zm3c24smdhna461ib3w6n5dphpklrah35kc6wl0ac75m"
     },
     "dm-mono": {
       "type": "Git",
