@@ -94,11 +94,11 @@
         "owner": "micros24",
         "repo": "linux-xanmod-bore"
       },
-      "branch": "6.14",
+      "branch": "6.15",
       "submodules": false,
-      "revision": "f5dff8dc1b1cd1b7456caee5f6f02d9a301271ae",
-      "url": "https://github.com/micros24/linux-xanmod-bore/archive/f5dff8dc1b1cd1b7456caee5f6f02d9a301271ae.tar.gz",
-      "hash": "0wywnn5rzvwjb8yq6irs0s7icdp4njc8zwwr20qchsc8asy9k70z"
+      "revision": "763116ada5d40204f440c753769fbc5df08dcced",
+      "url": "https://github.com/micros24/linux-xanmod-bore/archive/763116ada5d40204f440c753769fbc5df08dcced.tar.gz",
+      "hash": "0wck0irrfj2bdkly15gl6ris2cq5ldf1s7638xhl2yjf69ldrv14"
     },
     "vague.nvim": {
       "type": "GitRelease",
