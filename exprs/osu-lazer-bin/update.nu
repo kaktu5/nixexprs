@@ -1,6 +1,7 @@
 #!/usr/bin/env -S nix shell nixpkgs#nushell -c nu
 
-mut info = open "./info.json"
+let info_path = ($env.FILE_PWD | path join "./info.json")
+mut info = open $info_path
 let releases = http get "https://api.github.com/repos/ppy/osu/releases"
 
 let lazer_release = $releases | where prerelease == false | first
@@ -28,4 +29,4 @@ if $tachyon_release.tag_name != $info.tachyon.version {
   print $"osu-lazer-bin: updated osu!lazer \(tachyon\) to ($lazer_release.tag_name)"
 }
 
-$info | to json | save -f "./info.json"
+$info | to json | save -f $info_path

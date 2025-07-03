@@ -3,13 +3,13 @@
   pkgs,
   sources,
 }: let
-  inherit (lib) licenses substring;
+  inherit (lib) licenses removePrefix;
   inherit (pkgs.rustPlatform) buildRustPackage;
   inherit (sources) dioxus;
 in
   buildRustPackage {
     pname = "dioxus-cli";
-    version = substring 0 8 dioxus.revision;
+    version = removePrefix "v" dioxus.version;
     src = dioxus;
     cargoLock.lockFile = dioxus + /Cargo.lock;
     buildAndTestSubdir = "packages/cli";
