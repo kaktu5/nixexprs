@@ -9,9 +9,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "0f7fa5ba0d26114f2be8a666fee63aacb2c3ab0c",
-      "url": "https://github.com/alez-dev/babylonia-terminal/archive/0f7fa5ba0d26114f2be8a666fee63aacb2c3ab0c.tar.gz",
-      "hash": "0i1lbxjw6i2wr5x2j5g40fh4xd314br75ffx1m1v83r0a11iw8g5"
+      "revision": "e239c1a3dd1e97daa846ee1577c04363be4a9a24",
+      "url": "https://github.com/alez-dev/babylonia-terminal/archive/e239c1a3dd1e97daa846ee1577c04363be4a9a24.tar.gz",
+      "hash": "0kvkfaa7d7m5fvi7kgflx92wlacza3icj44di3crfs9difnhldjq"
     },
     "compile-mode.nvim": {
       "type": "GitRelease",
@@ -24,10 +24,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v5.6.1",
-      "revision": "e582bfb8a14721f7635a2306582603f757283004",
-      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.6.1",
-      "hash": "1myaar1iyj67y22gxk457r3lb2arrvgcki0208a77yarp9lxsg25"
+      "version": "v5.7.0",
+      "revision": "88f64d3e97b5065076a68823fd875c9f5f391c67",
+      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.7.0",
+      "hash": "17if1md0lnssqqqyckrdg7pg83fa5ikxc4zh9pwyafx28fa7ysag"
     },
     "dioxus": {
       "type": "GitRelease",
@@ -96,9 +96,9 @@
       },
       "branch": "6.15",
       "submodules": false,
-      "revision": "763116ada5d40204f440c753769fbc5df08dcced",
-      "url": "https://github.com/micros24/linux-xanmod-bore/archive/763116ada5d40204f440c753769fbc5df08dcced.tar.gz",
-      "hash": "0wck0irrfj2bdkly15gl6ris2cq5ldf1s7638xhl2yjf69ldrv14"
+      "revision": "a88f58f74709382ca8f4dba088dc3812115dae37",
+      "url": "https://github.com/micros24/linux-xanmod-bore/archive/a88f58f74709382ca8f4dba088dc3812115dae37.tar.gz",
+      "hash": "10n7ah0i39m4ywbgwaakv8m5yyqvpkxpy8n5j8izi3f1cx5wz544"
     },
     "vague.nvim": {
       "type": "GitRelease",
