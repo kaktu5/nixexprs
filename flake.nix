@@ -1,34 +1,28 @@
 {
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    flake-utils.url = "github:numtide/flake-utils";
-    treefmt-nix = {
-      url = "github:numtide/treefmt-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-  };
-  outputs = {
-    self,
-    nixpkgs,
-    flake-utils,
-    treefmt-nix,
-    ...
-  }: let
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+  outputs = {nixpkgs, ...}: let
     inherit (nixpkgs) lib;
+    forEachSystem = lib.genAttrs [
+      "aarch64-darwin"
+      "aarch64-linux"
+      "x86_64-darwin"
+      "x86_64-linux"
+    ];
     mkExprs = pkgs: (import ./exprs {
       inherit pkgs;
       sources = import ./npins;
     });
-  in
-    flake-utils.lib.eachSystem ["aarch64-linux" "x86_64-linux"] (system: let
+    systemOutputs = forEachSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
       exprs = mkExprs pkgs;
       readme = import ./readme.nix {inherit exprs lib pkgs;};
-      treefmt = (treefmt-nix.lib.evalModule pkgs ./treefmt.nix).config.build;
     in {
       packages = exprs // {inherit readme;};
-      formatter = treefmt.wrapper;
-      checks.formatting = treefmt.check self;
-    })
-    // {overlays.default = _: prev: {kkts = mkExprs prev;};};
+      formatter = pkgs.alejandra;
+    });
+  in {
+    packages = lib.mapAttrs (_: attrs: attrs.packages) systemOutputs;
+    formatter = lib.mapAttrs (_: attrs: attrs.formatter) systemOutputs;
+    overlays.default = _: prev: {kkts = mkExprs prev;};
+  };
 }
