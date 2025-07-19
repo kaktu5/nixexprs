@@ -40,10 +40,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v0.7.0-alpha.2",
-      "revision": "d5bc480f6f38693fe28535aef63a2ccf1174418f",
-      "url": "https://api.github.com/repos/dioxuslabs/dioxus/tarball/v0.7.0-alpha.2",
-      "hash": "1p88ymf2ll8nwm50kchf6spb0j90apadxr58n51pmmsv42x1y9mi"
+      "version": "v0.7.0-alpha.3",
+      "revision": "f9e7011e72674fcd33121b10c7b2ef2fe2e768b0",
+      "url": "https://api.github.com/repos/dioxuslabs/dioxus/tarball/v0.7.0-alpha.3",
+      "hash": "0r3h5wa03bx35awwvj7ip9fn1w5y1a3sdlz05gy19hs0j2b4803x"
     },
     "dm-mono": {
       "type": "Git",
