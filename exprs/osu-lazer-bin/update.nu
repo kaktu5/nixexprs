@@ -26,7 +26,7 @@ if $tachyon_release.tag_name != $info.tachyon.version {
     url: $tachyon_url,
     hash: $tachyon_hash,
   }
-  print $"osu-lazer-bin: updated osu!lazer \(tachyon\) to ($lazer_release.tag_name)"
+  print $"osu-lazer-bin: updated osu!lazer \(tachyon\) to ($tachyon_release.tag_name)"
 }
 
 $info | to json | save -f $info_path

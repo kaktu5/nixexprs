@@ -87,6 +87,19 @@
       "url": "https://api.github.com/repos/whysobad/hyprland-preview-share-picker/tarball/v0.2.1",
       "hash": "143h5c4qa40y6mmwfaf17y3qzgk7s4gz0wl63km80k5i63pybq9c"
     },
+    "indentmini.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nvimdev",
+        "repo": "indentmini.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "0dc4bc2b3fc763420793e748b672292bc43ee722",
+      "url": "https://github.com/nvimdev/indentmini.nvim/archive/0dc4bc2b3fc763420793e748b672292bc43ee722.tar.gz",
+      "hash": "1n8vb7wgkb81x9zqhmsdrl2ilx40l4r6jg9qnmd3ihbfwbsjgi48"
+    },
     "linux-xanmod-bore": {
       "type": "Git",
       "repository": {
@@ -96,9 +109,9 @@
       },
       "branch": "6.15",
       "submodules": false,
-      "revision": "a88f58f74709382ca8f4dba088dc3812115dae37",
-      "url": "https://github.com/micros24/linux-xanmod-bore/archive/a88f58f74709382ca8f4dba088dc3812115dae37.tar.gz",
-      "hash": "10n7ah0i39m4ywbgwaakv8m5yyqvpkxpy8n5j8izi3f1cx5wz544"
+      "revision": "448d03dc48152f6550992965918a56024ed12dc9",
+      "url": "https://github.com/micros24/linux-xanmod-bore/archive/448d03dc48152f6550992965918a56024ed12dc9.tar.gz",
+      "hash": "1gbl7wdhn9nbr30rv0ylqm2lx28j9hrpj2m96c7ng2isk0xxk6mk"
     },
     "vague.nvim": {
       "type": "GitRelease",
