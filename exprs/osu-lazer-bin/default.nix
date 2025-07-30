@@ -10,7 +10,7 @@
   inherit (lib) isString licenses optionalString readFile;
   inherit (pkgs) fetchurl makeWrapper;
   inherit (pkgs.appimageTools) extract wrapType2;
-  info = (fromJSON (readFile ./info.json)).${release_stream};
+  info = ((readFile ./info.json) |> fromJSON).${release_stream};
   osu-appimage = fetchurl {inherit (info) url hash;};
 in
   wrapType2 rec {

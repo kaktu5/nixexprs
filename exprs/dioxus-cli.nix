@@ -15,7 +15,6 @@ in
     buildAndTestSubdir = "packages/cli";
     nativeBuildInputs = [pkgs.pkg-config];
     buildInputs = [pkgs.openssl];
-    useFetchCargoVendor = true;
     OPENSSL_NO_VENDOR = 1;
     doCheck = false;
     stripAllList = ["bin"];
