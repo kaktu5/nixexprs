@@ -5,7 +5,7 @@
 }: let
   inherit (pkgs) writeText;
 in
-  writeText "README.md" (let
+  writeText "readme.md" (let
     inherit (lib) concatStringsSep mapAttrsToList singleton;
   in
     concatStringsSep "\n" (

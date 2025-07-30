@@ -1,13 +1,14 @@
 *
 !exprs/
 !exprs/**
+!lib/
+!lib/**
 !npins/
 !npins/**
 !.editorconfig
 !.gitignore
 !flake.lock
 !flake.nix
-!LICENSE
-!README.md
+!license
+!readme.md
 !readme.nix
-!treefmt.nix
