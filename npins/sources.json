@@ -100,32 +100,6 @@
       "url": "https://github.com/nvimdev/indentmini.nvim/archive/0dc4bc2b3fc763420793e748b672292bc43ee722.tar.gz",
       "hash": "1n8vb7wgkb81x9zqhmsdrl2ilx40l4r6jg9qnmd3ihbfwbsjgi48"
     },
-    "linux-xanmod": {
-      "type": "Git",
-      "repository": {
-        "type": "GitLab",
-        "repo_path": "xanmod/linux",
-        "server": "https://gitlab.com/"
-      },
-      "branch": "6.15",
-      "submodules": false,
-      "revision": "4c53b881a296927b05f0bec0c73ad2d0661c6190",
-      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?sha=4c53b881a296927b05f0bec0c73ad2d0661c6190",
-      "hash": "15gdk7cigwk0w24zkf4w1c4nylq34a9v2hxk0qhgp1hi5m6yk01z"
-    },
-    "linux-xanmod-bore": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "micros24",
-        "repo": "linux-xanmod-bore"
-      },
-      "branch": "6.15",
-      "submodules": false,
-      "revision": "448d03dc48152f6550992965918a56024ed12dc9",
-      "url": "https://github.com/micros24/linux-xanmod-bore/archive/448d03dc48152f6550992965918a56024ed12dc9.tar.gz",
-      "hash": "1gbl7wdhn9nbr30rv0ylqm2lx28j9hrpj2m96c7ng2isk0xxk6mk"
-    },
     "vague-nvim": {
       "type": "GitRelease",
       "repository": {
