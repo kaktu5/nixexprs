@@ -5,7 +5,7 @@
 }: let
   inherit (lib) licenses substring;
   inherit (pkgs.rustPlatform) buildRustPackage;
-  inherit (sources) babylonia-terminal downloader;
+  inherit (sources) babylonia-terminal babylonia-terminal-downloader;
 in
   buildRustPackage {
     pname = "babylonia-terminal";
@@ -13,7 +13,7 @@ in
     src = babylonia-terminal;
     cargoLock = {
       lockFile = babylonia-terminal + /Cargo.lock;
-      outputHashes."downloader-0.2.7" = downloader.hash;
+      outputHashes."downloader-0.2.7" = babylonia-terminal-downloader.hash;
     };
     nativeBuildInputs = with pkgs; [glib pkg-config];
     buildInputs = with pkgs; [

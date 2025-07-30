@@ -5,7 +5,7 @@
 }: let
   inherit (lib) licenses substring;
   inherit (pkgs.vimUtils) buildVimPlugin;
-  indentmini-nvim = sources."indentmini.nvim";
+  inherit (sources) indentmini-nvim;
 in
   buildVimPlugin {
     pname = "indentmini-nvim";

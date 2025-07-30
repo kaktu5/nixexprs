@@ -21,7 +21,7 @@
       readme = import ./readme.nix {inherit exprs lib pkgs;};
     in {
       packages = exprs // {inherit readme;};
-      devShells.default = pkgs.mkShellNoCC {packages = [pkgs.npins];};
+      devShells.default = pkgs.mkShellNoCC {nativeBuildInputs = [pkgs.npins];};
       formatter = pkgs.writeShellApplication {
         name = "format";
         runtimeInputs = with pkgs; [alejandra fd];

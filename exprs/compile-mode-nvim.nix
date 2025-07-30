@@ -5,12 +5,12 @@
 }: let
   inherit (lib) licenses removePrefix;
   inherit (pkgs.vimUtils) buildVimPlugin;
-  compile-mode = sources."compile-mode.nvim";
+  inherit (sources) compile-mode-nvim;
 in
   buildVimPlugin {
-    pname = "compile-mode";
-    version = removePrefix "v" compile-mode.version;
-    src = compile-mode;
+    pname = "compile-mode-nvim";
+    version = removePrefix "v" compile-mode-nvim.version;
+    src = compile-mode-nvim;
     buildInputs = with pkgs.vimPlugins; [baleia-nvim plenary-nvim];
     meta = {
       description = "A plugin for Neovim inspired by Emacs Compilation Mode";

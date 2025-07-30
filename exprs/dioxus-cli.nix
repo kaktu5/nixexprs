@@ -5,13 +5,13 @@
 }: let
   inherit (lib) licenses removePrefix;
   inherit (pkgs.rustPlatform) buildRustPackage;
-  inherit (sources) dioxus;
+  inherit (sources) dioxus-cli;
 in
   buildRustPackage {
     pname = "dioxus-cli";
-    version = removePrefix "v" dioxus.version;
-    src = dioxus;
-    cargoLock.lockFile = dioxus + /Cargo.lock;
+    version = removePrefix "v" dioxus-cli.version;
+    src = dioxus-cli;
+    cargoLock.lockFile = dioxus-cli + /Cargo.lock;
     buildAndTestSubdir = "packages/cli";
     nativeBuildInputs = [pkgs.pkg-config];
     buildInputs = [pkgs.openssl];

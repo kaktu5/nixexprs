@@ -13,7 +13,20 @@
       "url": "https://github.com/alez-dev/babylonia-terminal/archive/e239c1a3dd1e97daa846ee1577c04363be4a9a24.tar.gz",
       "hash": "0kvkfaa7d7m5fvi7kgflx92wlacza3icj44di3crfs9difnhldjq"
     },
-    "compile-mode.nvim": {
+    "babylonia-terminal-downloader": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "alez-dev",
+        "repo": "downloader"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5572a0875ec4f04b0514342f9acff21252beb579",
+      "url": "https://github.com/alez-dev/downloader/archive/5572a0875ec4f04b0514342f9acff21252beb579.tar.gz",
+      "hash": "1sywyaabd0fzzmyjbqsx9x2p692nbnyx02807g44h788n0qrjr0i"
+    },
+    "compile-mode-nvim": {
       "type": "GitRelease",
       "repository": {
         "type": "GitHub",
@@ -29,7 +42,7 @@
       "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.7.0",
       "hash": "17if1md0lnssqqqyckrdg7pg83fa5ikxc4zh9pwyafx28fa7ysag"
     },
-    "dioxus": {
+    "dioxus-cli": {
       "type": "GitRelease",
       "repository": {
         "type": "GitHub",
@@ -58,19 +71,6 @@
       "url": "https://github.com/googlefonts/dm-mono/archive/57fadabfb200a77de2812540026c249dc3013077.tar.gz",
       "hash": "07y3csk0vy3b3mq33bb73m63p9vyk8dhf6ysqnxabdpvy6d98gjy"
     },
-    "downloader": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "alez-dev",
-        "repo": "downloader"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "5572a0875ec4f04b0514342f9acff21252beb579",
-      "url": "https://github.com/alez-dev/downloader/archive/5572a0875ec4f04b0514342f9acff21252beb579.tar.gz",
-      "hash": "1sywyaabd0fzzmyjbqsx9x2p692nbnyx02807g44h788n0qrjr0i"
-    },
     "hyprland-preview-share-picker": {
       "type": "GitRelease",
       "repository": {
@@ -87,7 +87,7 @@
       "url": "https://api.github.com/repos/whysobad/hyprland-preview-share-picker/tarball/v0.2.1",
       "hash": "143h5c4qa40y6mmwfaf17y3qzgk7s4gz0wl63km80k5i63pybq9c"
     },
-    "indentmini.nvim": {
+    "indentmini-nvim": {
       "type": "Git",
       "repository": {
         "type": "GitHub",
@@ -99,6 +99,19 @@
       "revision": "0dc4bc2b3fc763420793e748b672292bc43ee722",
       "url": "https://github.com/nvimdev/indentmini.nvim/archive/0dc4bc2b3fc763420793e748b672292bc43ee722.tar.gz",
       "hash": "1n8vb7wgkb81x9zqhmsdrl2ilx40l4r6jg9qnmd3ihbfwbsjgi48"
+    },
+    "linux-xanmod": {
+      "type": "Git",
+      "repository": {
+        "type": "GitLab",
+        "repo_path": "xanmod/linux",
+        "server": "https://gitlab.com/"
+      },
+      "branch": "6.15",
+      "submodules": false,
+      "revision": "4c53b881a296927b05f0bec0c73ad2d0661c6190",
+      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?sha=4c53b881a296927b05f0bec0c73ad2d0661c6190",
+      "hash": "15gdk7cigwk0w24zkf4w1c4nylq34a9v2hxk0qhgp1hi5m6yk01z"
     },
     "linux-xanmod-bore": {
       "type": "Git",
@@ -113,7 +126,7 @@
       "url": "https://github.com/micros24/linux-xanmod-bore/archive/448d03dc48152f6550992965918a56024ed12dc9.tar.gz",
       "hash": "1gbl7wdhn9nbr30rv0ylqm2lx28j9hrpj2m96c7ng2isk0xxk6mk"
     },
-    "vague.nvim": {
+    "vague-nvim": {
       "type": "GitRelease",
       "repository": {
         "type": "GitHub",

@@ -5,7 +5,7 @@
 }: let
   inherit (lib) licenses removePrefix;
   inherit (pkgs.vimUtils) buildVimPlugin;
-  vague-nvim = sources."vague.nvim";
+  inherit (sources) vague-nvim;
 in
   buildVimPlugin {
     pname = "vague-nvim";

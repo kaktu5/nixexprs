@@ -1,13 +1,12 @@
 {
-  exprs,
   lib,
   pkgs,
+  exprs,
 }: let
+  inherit (lib) concatStringsSep mapAttrsToList singleton;
   inherit (pkgs) writeText;
 in
-  writeText "readme.md" (let
-    inherit (lib) concatStringsSep mapAttrsToList singleton;
-  in
+  writeText "readme.md" (
     concatStringsSep "\n" (
       (singleton ''
         | Package | Version | Description |
@@ -28,4 +27,5 @@ in
           in "| ${name} | ${version} | ${description} |"
         )
         exprs)
-    ))
+    )
+  )
