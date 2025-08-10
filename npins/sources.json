@@ -100,6 +100,19 @@
       "url": "https://github.com/nvimdev/indentmini.nvim/archive/0dc4bc2b3fc763420793e748b672292bc43ee722.tar.gz",
       "hash": "1n8vb7wgkb81x9zqhmsdrl2ilx40l4r6jg9qnmd3ihbfwbsjgi48"
     },
+    "minimal-tmux-status": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "niksingh710",
+        "repo": "minimal-tmux-status"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "de2bb049a743e0f05c08531a0461f7f81da0fc72",
+      "url": "https://github.com/niksingh710/minimal-tmux-status/archive/de2bb049a743e0f05c08531a0461f7f81da0fc72.tar.gz",
+      "hash": "043hy4c6cdra2pqcvw76pm1pffbnqzl188yhxzdlmyd7aqays1fj"
+    },
     "vague-nvim": {
       "type": "GitRelease",
       "repository": {
