@@ -53,10 +53,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v0.7.0-alpha.3",
-      "revision": "f9e7011e72674fcd33121b10c7b2ef2fe2e768b0",
-      "url": "https://api.github.com/repos/dioxuslabs/dioxus/tarball/v0.7.0-alpha.3",
-      "hash": "0r3h5wa03bx35awwvj7ip9fn1w5y1a3sdlz05gy19hs0j2b4803x"
+      "version": "v0.7.0-rc.0",
+      "revision": "a8230d8ff0e769d3c1fee3452b8ea47ec885ecc1",
+      "url": "https://api.github.com/repos/dioxuslabs/dioxus/tarball/v0.7.0-rc.0",
+      "hash": "025j9qxv5sbdsyjz0cfylqjj6znmyliihjzrlnryp1wbz51nn2cg"
     },
     "dm-mono": {
       "type": "Git",
@@ -124,10 +124,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v1.4.1",
-      "revision": "41b6b9a985c9091d0ec8571191e89d6950968cec",
-      "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/v1.4.1",
-      "hash": "1vqqvr304h75fyv8ix19bqr7h23g5xq6nahd4qgwmkwgax04xi4a"
+      "version": "v1.5.0",
+      "revision": "087ff41d1b4d90e7b64e1c97860700fa6b7f0daf",
+      "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/v1.5.0",
+      "hash": "0y6b11piz4wxzrrgyvkwfw020qbwhiwzdcykijgdig1w6qxhg2i6"
     },
     "zsh-auto-notify": {
       "type": "GitRelease",
