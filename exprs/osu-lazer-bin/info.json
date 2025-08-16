@@ -5,8 +5,8 @@
     "hash": "sha256-Tfm75+jkSAqyNBkN3cVrx3hyw+Ai3lKa6ZIo47x2Rns="
   },
   "tachyon": {
-    "version": "2025.813.0-tachyon",
-    "url": "https://github.com/ppy/osu/releases/download/2025.813.0-tachyon/osu.AppImage",
-    "hash": "sha256-etZJEFXY0W9S7z5UvTywA5E636PaLJsqkzCKW/DF5Sg="
+    "version": "2025.815.0-tachyon",
+    "url": "https://github.com/ppy/osu/releases/download/2025.815.0-tachyon/osu.AppImage",
+    "hash": "sha256-B4hah9jc3K4+Tde2B4kI6/VIGhnrAr4u3N+2dPqlH8o="
   }
 }
