@@ -1,8 +1,8 @@
 {
   "lazer": {
-    "version": "2025.710.0-lazer",
-    "url": "https://github.com/ppy/osu/releases/download/2025.710.0-lazer/osu.AppImage",
-    "hash": "sha256-Tfm75+jkSAqyNBkN3cVrx3hyw+Ai3lKa6ZIo47x2Rns="
+    "version": "2025.816.0-lazer",
+    "url": "https://github.com/ppy/osu/releases/download/2025.816.0-lazer/osu.AppImage",
+    "hash": "sha256-mOihQ8mtHEiq0FElkJiZl0mhBqPi8CoGowN358Jc72A="
   },
   "tachyon": {
     "version": "2025.815.0-tachyon",
