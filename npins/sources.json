@@ -37,10 +37,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v5.7.0",
-      "revision": "88f64d3e97b5065076a68823fd875c9f5f391c67",
-      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.7.0",
-      "hash": "17if1md0lnssqqqyckrdg7pg83fa5ikxc4zh9pwyafx28fa7ysag"
+      "version": "v5.8.2",
+      "revision": "25d79e122ef56f1a2efe17125730cb6863e418cd",
+      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.8.2",
+      "hash": "0zfc2495vvhykqqzsa1b5lnmf3li8hh5p2l08j70g5d0anaypi61"
     },
     "dioxus-cli": {
       "type": "GitRelease",
