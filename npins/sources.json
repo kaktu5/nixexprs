@@ -37,10 +37,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v5.8.2",
-      "revision": "25d79e122ef56f1a2efe17125730cb6863e418cd",
-      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.8.2",
-      "hash": "0zfc2495vvhykqqzsa1b5lnmf3li8hh5p2l08j70g5d0anaypi61"
+      "version": "v5.9.0",
+      "revision": "7d85093adf0ce959834ab209e8ef6e3e3711fe8c",
+      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.9.0",
+      "hash": "1036i3pi0jv304g7h3xsn1fj1ci4pcmx5hlcnqv1bjar4lfz3ksj"
     },
     "dioxus-cli": {
       "type": "GitRelease",
@@ -109,9 +109,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "de2bb049a743e0f05c08531a0461f7f81da0fc72",
-      "url": "https://github.com/niksingh710/minimal-tmux-status/archive/de2bb049a743e0f05c08531a0461f7f81da0fc72.tar.gz",
-      "hash": "043hy4c6cdra2pqcvw76pm1pffbnqzl188yhxzdlmyd7aqays1fj"
+      "revision": "118b44b05b3fb4e46a38373ddcef35d4c5e2d01e",
+      "url": "https://github.com/niksingh710/minimal-tmux-status/archive/118b44b05b3fb4e46a38373ddcef35d4c5e2d01e.tar.gz",
+      "hash": "0kvvhdmfds3v1w26y8m7lsh87c1kw33lhc4cp6shfkllsnyc9ylk"
     },
     "vague-nvim": {
       "type": "GitRelease",
