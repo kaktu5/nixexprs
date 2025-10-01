@@ -2,7 +2,7 @@
   lib,
   pkgs,
   command_prefix ? (lib.getExe pkgs.gamemode),
-  pipewire_latency ? "64/48000",
+  pipewire_latency ? "256/44100",
   release_stream ? "lazer",
   ...
 }: let
