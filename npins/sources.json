@@ -9,9 +9,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "e239c1a3dd1e97daa846ee1577c04363be4a9a24",
-      "url": "https://github.com/alez-dev/babylonia-terminal/archive/e239c1a3dd1e97daa846ee1577c04363be4a9a24.tar.gz",
-      "hash": "0kvkfaa7d7m5fvi7kgflx92wlacza3icj44di3crfs9difnhldjq"
+      "revision": "1f55e19924c6ad3ae0e057c8a3941f00395045a5",
+      "url": "https://github.com/alez-dev/babylonia-terminal/archive/1f55e19924c6ad3ae0e057c8a3941f00395045a5.tar.gz",
+      "hash": "0737g8kfypfkfvq5ky8a3h8rhqa9y3knj7b82mhazcv3qcbdj91q"
     },
     "babylonia-terminal-downloader": {
       "type": "Git",
@@ -53,23 +53,42 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v0.7.0-rc.0",
-      "revision": "a8230d8ff0e769d3c1fee3452b8ea47ec885ecc1",
-      "url": "https://api.github.com/repos/dioxuslabs/dioxus/tarball/v0.7.0-rc.0",
-      "hash": "025j9qxv5sbdsyjz0cfylqjj6znmyliihjzrlnryp1wbz51nn2cg"
+      "version": "v0.7.1",
+      "revision": "03ab7fa4821ff18c175d8576e966aec994030ee5",
+      "url": "https://api.github.com/repos/dioxuslabs/dioxus/tarball/v0.7.1",
+      "hash": "06c9wi5mqpxp7ng0fn12chr3ll29yy3bz4isrckflmnng87ywdqk"
     },
-    "dm-mono": {
-      "type": "Git",
+    "flake-compat": {
+      "type": "GitRelease",
       "repository": {
         "type": "GitHub",
-        "owner": "googlefonts",
-        "repo": "dm-mono"
+        "owner": "nixos",
+        "repo": "flake-compat"
       },
-      "branch": "main",
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
       "submodules": false,
-      "revision": "57fadabfb200a77de2812540026c249dc3013077",
-      "url": "https://github.com/googlefonts/dm-mono/archive/57fadabfb200a77de2812540026c249dc3013077.tar.gz",
-      "hash": "07y3csk0vy3b3mq33bb73m63p9vyk8dhf6ysqnxabdpvy6d98gjy"
+      "version": "v1.1.0",
+      "revision": "ff81ac966bb2cae68946d5ed5fc4994f96d0ffec",
+      "url": "https://api.github.com/repos/nixos/flake-compat/tarball/v1.1.0",
+      "hash": "19d2z6xsvpxm184m41qrpi1bplilwipgnzv9jy17fgw421785q1m"
+    },
+    "gamma-launcher": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "mord3rca",
+        "repo": "gamma-launcher"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v2.5",
+      "revision": "0519ad92714dff167ae04c9af252961f3010a2ed",
+      "url": "https://api.github.com/repos/mord3rca/gamma-launcher/tarball/v2.5",
+      "hash": "1wpdqpfjc1vcy6w1s35592ifrwg9v3k0c2fvpvx45632660dyf5b"
     },
     "hyprland-preview-share-picker": {
       "type": "GitRelease",
@@ -96,9 +115,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "0dc4bc2b3fc763420793e748b672292bc43ee722",
-      "url": "https://github.com/nvimdev/indentmini.nvim/archive/0dc4bc2b3fc763420793e748b672292bc43ee722.tar.gz",
-      "hash": "1n8vb7wgkb81x9zqhmsdrl2ilx40l4r6jg9qnmd3ihbfwbsjgi48"
+      "revision": "e0f1e381a3949ea6757365fa33f8f1722d3eae90",
+      "url": "https://github.com/nvimdev/indentmini.nvim/archive/e0f1e381a3949ea6757365fa33f8f1722d3eae90.tar.gz",
+      "hash": "02shv94mfx99gn6xhhq57z4fzdpxs1547qkhyk4kd4yf8brbhcv0"
     },
     "minimal-tmux-status": {
       "type": "Git",
@@ -112,6 +131,49 @@
       "revision": "118b44b05b3fb4e46a38373ddcef35d4c5e2d01e",
       "url": "https://github.com/niksingh710/minimal-tmux-status/archive/118b44b05b3fb4e46a38373ddcef35d4c5e2d01e.tar.gz",
       "hash": "0kvvhdmfds3v1w26y8m7lsh87c1kw33lhc4cp6shfkllsnyc9ylk"
+    },
+    "nixpkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nixos",
+        "repo": "nixpkgs"
+      },
+      "branch": "nixos-unstable",
+      "submodules": false,
+      "revision": "b6a8526db03f735b89dd5ff348f53f752e7ddc8e",
+      "url": "https://github.com/nixos/nixpkgs/archive/b6a8526db03f735b89dd5ff348f53f752e7ddc8e.tar.gz",
+      "hash": "117mzxz0a0r01nvmykdrvgfnxh1vwgg8rj2p0v3v1as1kp7ywxdd"
+    },
+    "python-unrar": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "matiasb",
+        "repo": "python-unrar"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.4",
+      "revision": "4101b7af99fcb3625e47bbfd2fc0f397086d0e76",
+      "url": "https://api.github.com/repos/matiasb/python-unrar/tarball/v0.4",
+      "hash": "1q3gl9hh1mb04i7ghxclv098h0y874j1mr5sidv9mdm5087qrsr5"
+    },
+    "statix": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "oppiliappan",
+        "repo": "statix"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "0f372c9c8f2981961c88dc1498b6f4d27696bdca",
+      "url": "https://github.com/oppiliappan/statix/archive/0f372c9c8f2981961c88dc1498b6f4d27696bdca.tar.gz",
+      "hash": "0879hl36v70a24hgm3lm1302wnj33dm1z6lyfzchdm9jwmifqyfi",
+      "frozen": true
     },
     "vague-nvim": {
       "type": "GitRelease",
@@ -128,6 +190,22 @@
       "revision": "087ff41d1b4d90e7b64e1c97860700fa6b7f0daf",
       "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/v1.5.0",
       "hash": "0y6b11piz4wxzrrgyvkwfw020qbwhiwzdcykijgdig1w6qxhg2i6"
+    },
+    "xanmod": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitLab",
+        "repo_path": "xanmod/linux",
+        "server": "https://gitlab.com/"
+      },
+      "pre_releases": true,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "6.17.7-xanmod1",
+      "revision": "c91290db6b407fe265946530ef45dbe8841734e8",
+      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?ref=6.17.7-xanmod1",
+      "hash": "0rng8jizqp7ipwax72idyhjj63i4pk8hrya7pi16568l8wyhlh1h"
     },
     "zsh-auto-notify": {
       "type": "GitRelease",
