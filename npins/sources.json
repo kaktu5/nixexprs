@@ -133,17 +133,10 @@
       "hash": "0kvvhdmfds3v1w26y8m7lsh87c1kw33lhc4cp6shfkllsnyc9ylk"
     },
     "nixpkgs": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "nixos",
-        "repo": "nixpkgs"
-      },
-      "branch": "nixos-unstable",
-      "submodules": false,
-      "revision": "b6a8526db03f735b89dd5ff348f53f752e7ddc8e",
-      "url": "https://github.com/nixos/nixpkgs/archive/b6a8526db03f735b89dd5ff348f53f752e7ddc8e.tar.gz",
-      "hash": "117mzxz0a0r01nvmykdrvgfnxh1vwgg8rj2p0v3v1as1kp7ywxdd"
+      "type": "Channel",
+      "name": "nixos-unstable",
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-25.11pre897910.89c2b2330e73/nixexprs.tar.xz",
+      "hash": "0fy4x81raaa18mz9yl62sy6cyizpjq48vs6hxgscx0im6xix5vmd"
     },
     "python-unrar": {
       "type": "GitRelease",
@@ -202,10 +195,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "6.17.7-xanmod1",
-      "revision": "c91290db6b407fe265946530ef45dbe8841734e8",
-      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?ref=6.17.7-xanmod1",
-      "hash": "0rng8jizqp7ipwax72idyhjj63i4pk8hrya7pi16568l8wyhlh1h"
+      "version": "6.17.8-xanmod1",
+      "revision": "dd2b142b7cff152fe56f0ca2474a546ce9116409",
+      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?ref=6.17.8-xanmod1",
+      "hash": "0saj4z9phnmsxjhn4cfaspb0av6zcv5v49gyzk6xx5dv55834w7h"
     },
     "zsh-auto-notify": {
       "type": "GitRelease",
