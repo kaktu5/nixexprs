@@ -4,6 +4,7 @@
 !npins/
 !npins/**
 !.editorconfig
+!.envrc
 !.gitignore
 !flake.lock
 !flake.nix
