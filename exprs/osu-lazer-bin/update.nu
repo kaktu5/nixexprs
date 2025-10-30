@@ -2,8 +2,8 @@
 
 let info_path = ($env.FILE_PWD | path join "./info.json")
 mut info = open $info_path
-let releases = http get "https://api.github.com/repos/ppy/osu/releases"
 
+let releases = http get "https://api.github.com/repos/ppy/osu/releases"
 let lazer_release = $releases | where prerelease == false | first
 let tachyon_release = $releases | where prerelease == true | first
 

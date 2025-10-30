@@ -4,8 +4,10 @@
 }: let
   inherit (builtins) readDir;
   inherit (pkgs) callPackage;
-  inherit (pkgs.lib) attrNames filter listToAttrs map removeSuffix;
-in (
+  inherit (pkgs.lib.attrsets) attrNames listToAttrs;
+  inherit (pkgs.lib.lists) filter map;
+  inherit (pkgs.lib.strings) removeSuffix;
+in
   readDir ./.
   |> attrNames
   |> (filter (file: file != "default.nix"))
@@ -14,4 +16,3 @@ in (
     value = callPackage ./${file} {inherit sources;};
   }))
   |> listToAttrs
-)
