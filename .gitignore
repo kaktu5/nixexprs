@@ -1,8 +1,6 @@
 *
 !exprs/
 !exprs/**
-!lib/
-!lib/**
 !npins/
 !npins/**
 !.editorconfig
