@@ -7,26 +7,26 @@
   releaseStream ? "lazer",
 }: let
   inherit (appimageTools) extract wrapType2;
+  inherit (lib.fixedPoints) fix;
   inherit (lib.licenses) cc-by-nc-40 mit unfreeRedistributable;
   inherit (lib.strings) fromJSON readFile;
 
-  sources = (fromJSON <| readFile ./sources.json).${releaseStream};
-
-  pname = "osu-lazer-bin";
-  inherit (sources) version;
-  src = fetchurl {inherit (sources) url hash;};
+  source = (fromJSON <| readFile ./sources.json).${releaseStream};
 in
-  wrapType2 {
-    inherit pname version src;
+  wrapType2 (fix (finalAttrs: {
+    pname = "osu-lazer-bin";
+    inherit (source) version;
+
+    src = fetchurl {inherit (source) url hash;};
 
     extraPkgs = _: [icu];
 
     extraInstallCommands = let
-      contents = extract {inherit pname version src;};
+      contents = extract {inherit (finalAttrs) pname version src;};
     in ''
       source ${makeWrapper}/nix-support/setup-hook
 
-      mv -v $out/bin/${pname} $out/bin/osu!
+      mv -v $out/bin/${finalAttrs.pname} $out/bin/osu!
 
       wrapProgram $out/bin/osu! \
         --set OSU_EXTERNAL_UPDATE_PROVIDER "1" \
@@ -46,4 +46,4 @@ in
       mainProgram = "osu!";
       passthru.updateScript = ./update.nu;
     };
-  }
+  }))
