@@ -1,11 +1,16 @@
 {
+  glib,
+  gtk4,
+  gtk4-layer-shell,
+  hyprland-protocols,
+  pkg-config,
+  rustPlatform,
   lib,
-  pkgs,
   sources,
 }: let
   inherit (lib.licenses) mit;
   inherit (lib.strings) removePrefix;
-  inherit (pkgs.rustPlatform) buildRustPackage;
+  inherit (rustPlatform) buildRustPackage;
   inherit (sources) hyprland-preview-share-picker;
 in
   buildRustPackage {
@@ -15,20 +20,14 @@ in
     src = hyprland-preview-share-picker;
     cargoLock.lockFile = hyprland-preview-share-picker + /Cargo.lock;
 
-    nativeBuildInputs = [pkgs.pkg-config];
+    nativeBuildInputs = [pkg-config];
     buildInputs = [
-      pkgs.gdk-pixbuf
-      pkgs.gobject-introspection
-      pkgs.graphene
-      pkgs.gtk4
-      pkgs.gtk4-layer-shell
-      pkgs.hyprland-protocols
-      pkgs.pango
+      glib
+      gtk4
+      gtk4-layer-shell
     ];
 
-    preBuild = ''
-      ln -s ${pkgs.hyprland-protocols}/share/hyprland-protocols/protocols lib/hyprland-protocols/
-    '';
+    preBuild = "ln -s ${hyprland-protocols}/share/hyprland-protocols/protocols lib/hyprland-protocols";
 
     meta = {
       description = "An alternative share picker for Hyprland with window and monitor previews";

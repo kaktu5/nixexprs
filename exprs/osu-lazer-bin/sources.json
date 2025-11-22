@@ -1,0 +1,12 @@
+{
+  "lazer": {
+    "version": "2026.119.0-lazer",
+    "url": "https://github.com/ppy/osu/releases/download/2026.119.0-lazer/osu.AppImage",
+    "hash": "sha256-lx8lU9tNXD90rpaKlIyR0C4eSivfmVAJP7Wq+n3Ht08="
+  },
+  "tachyon": {
+    "version": "2026.209.0-tachyon",
+    "url": "https://github.com/ppy/osu/releases/download/2026.209.0-tachyon/osu.AppImage",
+    "hash": "sha256-Ss+mM8ZgDakUYP7/3zg0ZBBLTwhED7goBsDsflzI0UQ="
+  }
+}

@@ -1,34 +1,36 @@
 {
+  appimageTools,
+  fetchurl,
+  icu,
+  makeWrapper,
   lib,
-  pkgs,
-  release_stream ? "lazer",
-  ...
+  releaseStream ? "lazer",
 }: let
+  inherit (appimageTools) extract wrapType2;
   inherit (lib.licenses) cc-by-nc-40 mit unfreeRedistributable;
   inherit (lib.strings) fromJSON readFile;
-  inherit (pkgs) fetchurl makeWrapper;
-  inherit (pkgs.appimageTools) extract wrapType2;
 
-  info = ((readFile ./info.json) |> fromJSON).${release_stream};
+  sources = (fromJSON <| readFile ./sources.json).${releaseStream};
 
   pname = "osu-lazer-bin";
-  inherit (info) version;
-  src = fetchurl {inherit (info) url hash;};
+  inherit (sources) version;
+  src = fetchurl {inherit (sources) url hash;};
 in
   wrapType2 {
     inherit pname version src;
 
-    extraPkgs = _: [pkgs.icu];
+    extraPkgs = _: [icu];
 
     extraInstallCommands = let
       contents = extract {inherit pname version src;};
     in ''
       source ${makeWrapper}/nix-support/setup-hook
+
       mv -v $out/bin/${pname} $out/bin/osu!
 
       wrapProgram $out/bin/osu! \
         --set OSU_EXTERNAL_UPDATE_PROVIDER "1" \
-        --set OSU_EXTERNAL_UPDATE_STREAM "${release_stream}" \
+        --set OSU_EXTERNAL_UPDATE_STREAM "${releaseStream}" \
         --set vblank_mode "0"
 
       install -m 444 -D ${contents}/osu!.desktop -t $out/share/applications
@@ -43,6 +45,5 @@ in
       license = [cc-by-nc-40 mit unfreeRedistributable];
       mainProgram = "osu!";
       passthru.updateScript = ./update.nu;
-      platforms = ["aarch64-darwin" "x86_64-darwin" "x86_64-linux"];
     };
   }

@@ -1,29 +1,13 @@
 {
+  python314Packages,
   lib,
-  pkgs,
   sources,
 }: let
-  inherit (lib.attrsets) attrValues getLib;
+  inherit (lib.attrsets) attrValues;
   inherit (lib.licenses) gpl3;
   inherit (lib.strings) removePrefix;
-  inherit (pkgs.python312Packages) buildPythonApplication buildPythonPackage setuptools;
-  inherit (sources) gamma-launcher python-unrar;
-
-  unrar = buildPythonPackage {
-    pname = "unrar";
-    inherit (python-unrar) version;
-
-    src = python-unrar;
-    pyproject = true;
-
-    build-system = [setuptools];
-
-    postPatch = ''
-      substituteInPlace unrar/unrarlib.py --replace \
-        "lib_path = os.environ.get('UNRAR_LIB_PATH', None)" \
-        "lib_path = os.environ.get('UNRAR_LIB_PATH', '${getLib pkgs.unrar}/lib/libunrar.so')"
-    '';
-  };
+  inherit (python314Packages) buildPythonApplication;
+  inherit (sources) gamma-launcher;
 in
   buildPythonApplication {
     pname = "gamma-launcher";
@@ -32,20 +16,20 @@ in
     src = gamma-launcher;
     pyproject = true;
 
-    build-system = [setuptools];
+    build-system = [python314Packages.setuptools];
     dependencies = attrValues {
       inherit
-        (pkgs.python312Packages)
+        (python314Packages)
         beautifulsoup4
         cloudscraper
         gitpython
         platformdirs
         py7zr
+        python-unrar
         requests
         tenacity
         tqdm
         ;
-      inherit unrar;
     };
 
     meta = {
