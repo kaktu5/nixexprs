@@ -9,9 +9,9 @@
       },
       "branch": "master",
       "submodules": false,
-      "revision": "1f55e19924c6ad3ae0e057c8a3941f00395045a5",
-      "url": "https://github.com/alez-dev/babylonia-terminal/archive/1f55e19924c6ad3ae0e057c8a3941f00395045a5.tar.gz",
-      "hash": "0737g8kfypfkfvq5ky8a3h8rhqa9y3knj7b82mhazcv3qcbdj91q"
+      "revision": "131009dc7e0c661ddf76cadeb6d7c0136a0f4b40",
+      "url": "https://github.com/alez-dev/babylonia-terminal/archive/131009dc7e0c661ddf76cadeb6d7c0136a0f4b40.tar.gz",
+      "hash": "sha256-MeP1CDcyMbgD0aiJcxT/jYdzU8tVOPUPZ8fq8BPtNh0="
     },
     "babylonia-terminal-downloader": {
       "type": "Git",
@@ -24,7 +24,7 @@
       "submodules": false,
       "revision": "5572a0875ec4f04b0514342f9acff21252beb579",
       "url": "https://github.com/alez-dev/downloader/archive/5572a0875ec4f04b0514342f9acff21252beb579.tar.gz",
-      "hash": "1sywyaabd0fzzmyjbqsx9x2p692nbnyx02807g44h788n0qrjr0i"
+      "hash": "sha256-EWSZMbAIHUjIOwAJ0L1dViRzRU9d4yV9/d+BtpTy3Os="
     },
     "compile-mode-nvim": {
       "type": "GitRelease",
@@ -37,10 +37,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v5.9.0",
-      "revision": "7d85093adf0ce959834ab209e8ef6e3e3711fe8c",
-      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.9.0",
-      "hash": "1036i3pi0jv304g7h3xsn1fj1ci4pcmx5hlcnqv1bjar4lfz3ksj"
+      "version": "v5.13.0",
+      "revision": "59e060f78acb5832a8a54f5ae702ea2f05628f40",
+      "url": "https://api.github.com/repos/ej-shafran/compile-mode.nvim/tarball/v5.13.0",
+      "hash": "sha256-AoEuE+BLQwAHgvkanLUU6kd4HhAyn9Y53lRAYnoghz4="
     },
     "dioxus-cli": {
       "type": "GitRelease",
@@ -53,26 +53,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v0.7.1",
-      "revision": "03ab7fa4821ff18c175d8576e966aec994030ee5",
-      "url": "https://api.github.com/repos/dioxuslabs/dioxus/tarball/v0.7.1",
-      "hash": "06c9wi5mqpxp7ng0fn12chr3ll29yy3bz4isrckflmnng87ywdqk"
-    },
-    "flake-compat": {
-      "type": "GitRelease",
-      "repository": {
-        "type": "GitHub",
-        "owner": "nixos",
-        "repo": "flake-compat"
-      },
-      "pre_releases": false,
-      "version_upper_bound": null,
-      "release_prefix": null,
-      "submodules": false,
-      "version": "v1.1.0",
-      "revision": "ff81ac966bb2cae68946d5ed5fc4994f96d0ffec",
-      "url": "https://api.github.com/repos/nixos/flake-compat/tarball/v1.1.0",
-      "hash": "19d2z6xsvpxm184m41qrpi1bplilwipgnzv9jy17fgw421785q1m"
+      "version": "v0.7.3",
+      "revision": "22b06badde44ba1af0fcf339c91b66483175b660",
+      "url": "https://api.github.com/repos/dioxuslabs/dioxus/tarball/v0.7.3",
+      "hash": "sha256-9BoJn8sgjij8eD6y90JzUArITWJog8RgttPTN8MS6UI="
     },
     "gamma-launcher": {
       "type": "GitRelease",
@@ -85,10 +69,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v2.5",
-      "revision": "0519ad92714dff167ae04c9af252961f3010a2ed",
-      "url": "https://api.github.com/repos/mord3rca/gamma-launcher/tarball/v2.5",
-      "hash": "1wpdqpfjc1vcy6w1s35592ifrwg9v3k0c2fvpvx45632660dyf5b"
+      "version": "v2.6",
+      "revision": "448d1a36b2547da523ac834aaec39f9a11b38a6e",
+      "url": "https://api.github.com/repos/mord3rca/gamma-launcher/tarball/v2.6",
+      "hash": "sha256-QegptRWMUKpkzsHBdT6KlyyWpmrIuvcyCRvWT9Te3DQ="
     },
     "hyprland-preview-share-picker": {
       "type": "GitRelease",
@@ -104,7 +88,7 @@
       "version": "v0.2.1",
       "revision": "211b7890ed3332f4d1bb1f1a96999e18874a9c3c",
       "url": "https://api.github.com/repos/whysobad/hyprland-preview-share-picker/tarball/v0.2.1",
-      "hash": "143h5c4qa40y6mmwfaf17y3qzgk7s4gz0wl63km80k5i63pybq9c"
+      "hash": "sha256-LOHl7zCxTIDqHIZy8B/RZ76Phz/BKcdrNR4QhQkrcJA="
     },
     "indentmini-nvim": {
       "type": "Git",
@@ -115,9 +99,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "e0f1e381a3949ea6757365fa33f8f1722d3eae90",
-      "url": "https://github.com/nvimdev/indentmini.nvim/archive/e0f1e381a3949ea6757365fa33f8f1722d3eae90.tar.gz",
-      "hash": "02shv94mfx99gn6xhhq57z4fzdpxs1547qkhyk4kd4yf8brbhcv0"
+      "revision": "38572ce5a7a064a5deb89d6d861b7c40fc929ab1",
+      "url": "https://github.com/nvimdev/indentmini.nvim/archive/38572ce5a7a064a5deb89d6d861b7c40fc929ab1.tar.gz",
+      "hash": "sha256-XcoBNrvFMmEMcgrknDg/HnxRNssom6vLeOKiu1qJKBo="
     },
     "minimal-tmux-status": {
       "type": "Git",
@@ -128,15 +112,15 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "118b44b05b3fb4e46a38373ddcef35d4c5e2d01e",
-      "url": "https://github.com/niksingh710/minimal-tmux-status/archive/118b44b05b3fb4e46a38373ddcef35d4c5e2d01e.tar.gz",
-      "hash": "0kvvhdmfds3v1w26y8m7lsh87c1kw33lhc4cp6shfkllsnyc9ylk"
+      "revision": "67e2f5205de1b46f99af1d92013fb38fec5b05d9",
+      "url": "https://github.com/niksingh710/minimal-tmux-status/archive/67e2f5205de1b46f99af1d92013fb38fec5b05d9.tar.gz",
+      "hash": "sha256-T5eoG861JJdGj6swp4+icjzwtSB5TY4efy5FeYbgHeg="
     },
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-25.11pre897910.89c2b2330e73/nixexprs.tar.xz",
-      "hash": "0fy4x81raaa18mz9yl62sy6cyizpjq48vs6hxgscx0im6xix5vmd"
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre942779.d6c719321308/nixexprs.tar.xz",
+      "hash": "sha256-MIMad536rq4nepqzYDTwuSDNQP+YuM0cfsvtcJJJItM="
     },
     "nixpkgs-for-xanmod": {
       "type": "Git",
@@ -149,7 +133,7 @@
       "submodules": false,
       "revision": "9360b6473fb32be3fd1be1a8beeb2bae174c5aa5",
       "url": "https://github.com/nixos/nixpkgs/archive/9360b6473fb32be3fd1be1a8beeb2bae174c5aa5.tar.gz",
-      "hash": "0w9vx9ar58gfzwwgigg9cc8z2cnw0i9m5n5lricsagmq2zcf5zb5",
+      "hash": "sha256-Zf3i2Be4PqVZzLTYUlME3DLxEWPpvfg4/+6hklXqO3E=",
       "frozen": true
     },
     "python-unrar": {
@@ -166,21 +150,7 @@
       "version": "v0.4",
       "revision": "4101b7af99fcb3625e47bbfd2fc0f397086d0e76",
       "url": "https://api.github.com/repos/matiasb/python-unrar/tarball/v0.4",
-      "hash": "1q3gl9hh1mb04i7ghxclv098h0y874j1mr5sidv9mdm5087qrsr5"
-    },
-    "statix": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "oppiliappan",
-        "repo": "statix"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "0f372c9c8f2981961c88dc1498b6f4d27696bdca",
-      "url": "https://github.com/oppiliappan/statix/archive/0f372c9c8f2981961c88dc1498b6f4d27696bdca.tar.gz",
-      "hash": "0879hl36v70a24hgm3lm1302wnj33dm1z6lyfzchdm9jwmifqyfi",
-      "frozen": true
+      "hash": "sha256-JeuMDwKltpp2i7rkGiQ5yAOIEtiUdfhOJGDVAGGib+A="
     },
     "vague-nvim": {
       "type": "GitRelease",
@@ -193,10 +163,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v1.5.0",
-      "revision": "087ff41d1b4d90e7b64e1c97860700fa6b7f0daf",
-      "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/v1.5.0",
-      "hash": "0y6b11piz4wxzrrgyvkwfw020qbwhiwzdcykijgdig1w6qxhg2i6"
+      "version": "v1.6.0",
+      "revision": "fcc283576764474ccfbbcca240797d5d7f4d8a78",
+      "url": "https://api.github.com/repos/vague2k/vague.nvim/tarball/v1.6.0",
+      "hash": "sha256-upqvTAnmJBAIoyzGxv+hq04dvS5wv3bjkbx2pWLCp+s="
     },
     "xanmod": {
       "type": "GitRelease",
@@ -209,10 +179,23 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "6.17.8-xanmod1",
-      "revision": "dd2b142b7cff152fe56f0ca2474a546ce9116409",
-      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?ref=6.17.8-xanmod1",
-      "hash": "0saj4z9phnmsxjhn4cfaspb0av6zcv5v49gyzk6xx5dv55834w7h"
+      "version": "6.18.9-xanmod1",
+      "revision": "26244281cc0b7513198331268b725be95f83bc66",
+      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?ref=6.18.9-xanmod1",
+      "hash": "sha256-iBRajsZ4WqamkIHGQGK+jeFALYGxOFMA2djoMWGdPj4="
+    },
+    "xanmod-bore-patches": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "micros24",
+        "repo": "linux-xanmod-bore"
+      },
+      "branch": "6.17",
+      "submodules": false,
+      "revision": "876e8d3374033cf28b103710240d989aa8a5db8b",
+      "url": "https://github.com/micros24/linux-xanmod-bore/archive/876e8d3374033cf28b103710240d989aa8a5db8b.tar.gz",
+      "hash": "sha256-J9Tq2p/d1uMmFmLBTv3iNzOJQtp4x0vDXRmdw068Alg="
     },
     "zsh-auto-notify": {
       "type": "GitRelease",
@@ -228,8 +211,8 @@
       "version": "0.11.1",
       "revision": "93634b25b83c9f0fa15ddc2784e49b982a3e5458",
       "url": "https://api.github.com/repos/michaelaquilina/zsh-auto-notify/tarball/0.11.1",
-      "hash": "0pr1jab3msn966wzwpi008k0kq05j71v8ml8pcpfs4mbnzic7qfp"
+      "hash": "sha256-1+HD4rerEu0uu4hWtMORBeAJJgIgXv65McnqOpaSIV8="
     }
   },
-  "version": 5
+  "version": 7
 }
