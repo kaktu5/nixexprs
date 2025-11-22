@@ -138,6 +138,20 @@
       "url": "https://releases.nixos.org/nixos/unstable/nixos-25.11pre897910.89c2b2330e73/nixexprs.tar.xz",
       "hash": "0fy4x81raaa18mz9yl62sy6cyizpjq48vs6hxgscx0im6xix5vmd"
     },
+    "nixpkgs-for-xanmod": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nixos",
+        "repo": "nixpkgs"
+      },
+      "branch": "nixos-unstable",
+      "submodules": false,
+      "revision": "9360b6473fb32be3fd1be1a8beeb2bae174c5aa5",
+      "url": "https://github.com/nixos/nixpkgs/archive/9360b6473fb32be3fd1be1a8beeb2bae174c5aa5.tar.gz",
+      "hash": "0w9vx9ar58gfzwwgigg9cc8z2cnw0i9m5n5lricsagmq2zcf5zb5",
+      "frozen": true
+    },
     "python-unrar": {
       "type": "GitRelease",
       "repository": {

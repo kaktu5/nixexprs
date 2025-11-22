@@ -3,9 +3,12 @@
   pkgs,
   sources,
 }: let
+  inherit (pkgs.stdenv.hostPlatform) system;
+  pkgs' = import sources.nixpkgs-for-xanmod {inherit system;};
+
   inherit (lib.meta) getExe';
   inherit (lib.strings) removeSuffix;
-  inherit (pkgs) buildLinux linuxPackagesFor lld llvm llvmPackages stdenvAdapters;
+  inherit (pkgs') buildLinux linuxPackagesFor lld llvm llvmPackages stdenvAdapters;
   inherit (sources) xanmod;
 in
   linuxPackagesFor (buildLinux {
