@@ -1,4 +1,4 @@
-#!/usr/bin/env -S nix shell nixpkgs#nushell -c nu
+#!/usr/bin/env nu
 
 let sources_path = ($env.FILE_PWD | path join "sources.json")
 mut sources = open $sources_path

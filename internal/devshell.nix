@@ -6,5 +6,6 @@ in
     packages = [
       pkgs.nixd
       pkgs.npins
+      pkgs.nushell
     ];
   }
