@@ -1,12 +1,12 @@
 {
+  lib,
+  sources,
   glib,
   gtk4,
   gtk4-layer-shell,
   hyprland-protocols,
   pkg-config,
   rustPlatform,
-  lib,
-  sources,
 }: let
   inherit (lib.licenses) mit;
   inherit (lib.strings) removePrefix;

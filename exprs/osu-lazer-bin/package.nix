@@ -1,9 +1,9 @@
 {
+  lib,
   appimageTools,
   fetchurl,
   icu,
   makeWrapper,
-  lib,
   releaseStream ? "lazer",
 }: let
   inherit (appimageTools) extract wrapType2;
