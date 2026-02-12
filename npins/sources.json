@@ -1,5 +1,22 @@
 {
   "pins": {
+    "elysia": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://dawn.wine/",
+        "owner": "elysia",
+        "repo": "elysia"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v0.2",
+      "revision": "ed14268de40fa214f5b86e5de0fd5c4e2c58baf5",
+      "url": "https://dawn.wine/api/v1/repos/elysia/elysia/archive/v0.2.tar.gz",
+      "hash": "sha256-LFNPU84oSaS1AbJTkmhYmOFXOPpNHFG0C5MSQ3B2UyE="
+    },
     "gamma-launcher": {
       "type": "GitRelease",
       "repository": {

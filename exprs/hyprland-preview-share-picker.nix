@@ -21,11 +21,7 @@ in
     cargoLock.lockFile = hyprland-preview-share-picker + /Cargo.lock;
 
     nativeBuildInputs = [pkg-config];
-    buildInputs = [
-      glib
-      gtk4
-      gtk4-layer-shell
-    ];
+    buildInputs = [glib gtk4 gtk4-layer-shell];
 
     preBuild = "ln -s ${hyprland-protocols}/share/hyprland-protocols/protocols lib/hyprland-protocols";
 
