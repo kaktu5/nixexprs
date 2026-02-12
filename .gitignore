@@ -6,6 +6,7 @@
 !/npins/
 !/npins/**
 !/.envrc
+!/.gitattributes
 !/.gitignore
 !/flake.lock
 !/flake.nix
