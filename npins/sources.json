@@ -27,10 +27,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v2.6",
-      "revision": "448d1a36b2547da523ac834aaec39f9a11b38a6e",
-      "url": "https://api.github.com/repos/mord3rca/gamma-launcher/tarball/v2.6",
-      "hash": "sha256-QegptRWMUKpkzsHBdT6KlyyWpmrIuvcyCRvWT9Te3DQ="
+      "version": "v3.0",
+      "revision": "7330819c2877684e4affb1ab4e9457e1a1275f59",
+      "url": "https://api.github.com/repos/mord3rca/gamma-launcher/tarball/refs/tags/v3.0",
+      "hash": "sha256-bvlNmpl2L9MAhZMyHwosXrypH1CQrSI1RQwo+sXO7/w="
     },
     "hyprland-preview-share-picker": {
       "type": "GitRelease",
@@ -51,8 +51,8 @@
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre942779.d6c719321308/nixexprs.tar.xz",
-      "hash": "sha256-MIMad536rq4nepqzYDTwuSDNQP+YuM0cfsvtcJJJItM="
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre961274.62dc67aa6a52/nixexprs.tar.xz",
+      "hash": "sha256-niN94IYRjSvML5CuvT+97QelKJ5GMG8668Q9xddsszU="
     }
   },
   "version": 7
