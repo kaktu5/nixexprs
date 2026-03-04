@@ -1,5 +1,21 @@
 {
   "pins": {
+    "btop": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "aristocratos",
+        "repo": "btop"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v1.4.6",
+      "revision": "dd40161fb68b97f39abe876ab9a2ea39c10cfeab",
+      "url": "https://api.github.com/repos/aristocratos/btop/tarball/refs/tags/v1.4.6",
+      "hash": "sha256-h472rcXzpBkPYAEy9JaVlanaavaz0WcdkhmwsVdDRdo="
+    },
     "gamma-launcher": {
       "type": "GitRelease",
       "repository": {
