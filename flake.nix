@@ -8,13 +8,14 @@
     sources = import ./npins;
     lib = import (sources.nixpkgs + /lib);
 
-    inherit (lib.attrsets) mapAttrs recursiveUpdate;
+    inherit (lib.attrsets) mapAttrs zipAttrsWith;
     inherit (lib.lists) foldl';
+    inherit (lib.trivial) mergeAttrs;
 
-    mapSystems = systems: f: (foldl' (acc: system: (f system
-      |> mapAttrs (_: value: {${system} = value;})
-      |> recursiveUpdate acc)) {}
-    systems);
+    mapSystems = systems: f:
+      systems
+      |> map (s: f s |> mapAttrs (_: v: {${s} = v;}))
+      |> zipAttrsWith (_: foldl' mergeAttrs {});
   in
     mapSystems (import systems) (system: let
       pkgs = import sources.nixpkgs {inherit system;};
