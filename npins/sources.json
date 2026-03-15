@@ -53,6 +53,19 @@
       "name": "nixos-unstable",
       "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre961274.62dc67aa6a52/nixexprs.tar.xz",
       "hash": "sha256-niN94IYRjSvML5CuvT+97QelKJ5GMG8668Q9xddsszU="
+    },
+    "space-mono": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "googlefonts",
+        "repo": "spacemono"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "329858c2c4dbd3476f972a4ae00624b018cf4b81",
+      "url": "https://github.com/googlefonts/spacemono/archive/329858c2c4dbd3476f972a4ae00624b018cf4b81.tar.gz",
+      "hash": "sha256-qIeq90N3Mh8MBeZZp1QfBj33zTQNiv8k2vec1nFrdNY="
     }
   },
   "version": 7
