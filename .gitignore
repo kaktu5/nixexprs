@@ -1,13 +1,12 @@
 *
 !/**/
 
-!/exprs/**/*.{json,nix}
 !/internal/**/*.nix
 !/npins/**/*.{json,nix}
+!/pkgs/**/*.{json,nix}
 
 !/.envrc
 !/.gitattributes
 !/.gitignore
 !/flake.{lock,nix}
 !/license
-!/readme.md

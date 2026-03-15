@@ -10,5 +10,5 @@ in
   fix (final:
     packagesFromDirectoryRecursive {
       callPackage = callPackageWith (pkgs // final // {inherit sources;});
-      directory = ../exprs;
+      directory = ../pkgs;
     })

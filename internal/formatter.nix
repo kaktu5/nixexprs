@@ -12,6 +12,6 @@ in
     };
     text = ''
       fd "$@" -t f -e md -X mdformat --wrap 120 '{}'
-      fd "$@" -t f -e nix -E npins/ -X alejandra --quiet '{}'
+      fd "$@" -t f -e nix -E npins/default.nix -X alejandra --quiet '{}'
     '';
   }

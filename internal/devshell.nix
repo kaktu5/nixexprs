@@ -8,7 +8,6 @@ in
   mkShellNoCC {
     name = "nixexprs-devshell";
     packages = attrValues {
-      # nix
       inherit (pkgs) alejandra nixd npins nushell;
     };
   }

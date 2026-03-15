@@ -1,8 +1,10 @@
 {
-  outputs = _: let
-    sources = import ./npins;
-    lib = import (sources.nixpkgs + /lib);
+  inputs.nixpkgs.url = "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz";
 
+  outputs = {nixpkgs, ...}: let
+    sources = import ./npins;
+
+    inherit (nixpkgs) lib;
     inherit (lib.attrsets) mapAttrs zipAttrsWith;
     inherit (lib.lists) foldl';
 
@@ -12,7 +14,7 @@
       |> zipAttrsWith (_: foldl' (a: b: a // b) {});
   in
     mapSystems ["aarch64-linux" "x86_64-linux"] (system: let
-      pkgs = import sources.nixpkgs {inherit system;};
+      pkgs = nixpkgs.legacyPackages.${system};
     in {
       devShells.default = import ./internal/devshell.nix {inherit lib pkgs;};
 
