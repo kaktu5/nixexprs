@@ -27,10 +27,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v1.4.6",
-      "revision": "dd40161fb68b97f39abe876ab9a2ea39c10cfeab",
-      "url": "https://api.github.com/repos/aristocratos/btop/tarball/refs/tags/v1.4.6",
-      "hash": "sha256-h472rcXzpBkPYAEy9JaVlanaavaz0WcdkhmwsVdDRdo="
+      "version": "v1.4.7",
+      "revision": "d43a485ef69eca4da321dcec4f4806a38460ef78",
+      "url": "https://api.github.com/repos/aristocratos/btop/tarball/refs/tags/v1.4.7",
+      "hash": "sha256-3gECGBSWcGTYQkUlD4X2zrxZVvH2x2xfh5zdZ2jJbDQ="
     },
     "gamma-launcher": {
       "type": "GitRelease",
@@ -67,8 +67,8 @@
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre990025.15f4ee454b1d/nixexprs.tar.xz",
-      "hash": "sha256-fN6ynMvcdwPDB09LpWJNO5ogu+HFydrBWXJywoI/NNg="
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre998534.d233902339c0/nixexprs.tar.xz",
+      "hash": "sha256-VdRy3A14M5vIE882DJcaaR+5wrss9Qsg4YNVbr7uj3k="
     },
     "space-mono": {
       "type": "Git",
@@ -94,10 +94,11 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "7.0.0-xanmod1",
-      "revision": "8a3d3ca5e43fe12413ee4f303c3fec0d15ac185e",
-      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?sha=7.0.0-xanmod1",
-      "hash": "sha256-wN+gXBUy70lPDTSO1BhwEcWmqidwIlP3FnD1JiXmmkk="
+      "version": "7.0.6-xanmod1",
+      "revision": "6ca2749bc3c51454a736ce01a80ca7ba76f89c1e",
+      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?sha=7.0.6-xanmod1",
+      "hash": "sha256-JKNYtxPXvUU2eTFK8GrjmTY2WnLPPtZJmkEfAycNxgg=",
+      "frozen": true
     }
   },
   "version": 7

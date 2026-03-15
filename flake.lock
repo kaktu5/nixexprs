@@ -1,23 +1,6 @@
 {
   "nodes": {
-    "root": {
-      "inputs": {
-        "systems": "systems"
-      }
-    },
-    "systems": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-ZnKft8ZoyDmRW8feDrENyYQoWmpXjqakk9LL2yMigQg=",
-        "path": "internal/systems.nix",
-        "type": "path"
-      },
-      "original": {
-        "path": "internal/systems.nix",
-        "type": "path"
-      }
-    }
+    "root": {}
   },
   "root": "root",
   "version": 7

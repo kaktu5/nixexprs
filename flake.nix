@@ -1,10 +1,5 @@
 {
-  inputs.systems = {
-    url = "path:internal/systems.nix";
-    flake = false;
-  };
-
-  outputs = {systems, ...}: let
+  outputs = _: let
     sources = import ./npins;
     lib = import (sources.nixpkgs + /lib);
 
@@ -16,10 +11,10 @@
       |> map (s: f s |> mapAttrs (_: v: {${s} = v;}))
       |> zipAttrsWith (_: foldl' (a: b: a // b) {});
   in
-    mapSystems (import systems) (system: let
+    mapSystems ["aarch64-linux" "x86_64-linux"] (system: let
       pkgs = import sources.nixpkgs {inherit system;};
     in {
-      devShells.default = import ./internal/devshell.nix {inherit pkgs;};
+      devShells.default = import ./internal/devshell.nix {inherit lib pkgs;};
 
       formatter = import ./internal/formatter.nix {inherit lib pkgs;};
 
