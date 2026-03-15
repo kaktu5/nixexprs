@@ -43,10 +43,10 @@
       "version_upper_bound": null,
       "release_prefix": null,
       "submodules": false,
-      "version": "v3.0",
-      "revision": "7330819c2877684e4affb1ab4e9457e1a1275f59",
-      "url": "https://api.github.com/repos/mord3rca/gamma-launcher/tarball/refs/tags/v3.0",
-      "hash": "sha256-bvlNmpl2L9MAhZMyHwosXrypH1CQrSI1RQwo+sXO7/w="
+      "version": "v3.1",
+      "revision": "ade656e029a8547d8853ce1ba54f9b7f0acb9100",
+      "url": "https://api.github.com/repos/mord3rca/gamma-launcher/tarball/refs/tags/v3.1",
+      "hash": "sha256-FLxJfP1fl3efRk9iAIAsMUrjQcUNa04GjiAKrYequF8="
     },
     "hyprland-preview-share-picker": {
       "type": "GitRelease",
@@ -76,23 +76,6 @@
       "revision": "329858c2c4dbd3476f972a4ae00624b018cf4b81",
       "url": "https://github.com/googlefonts/spacemono/archive/329858c2c4dbd3476f972a4ae00624b018cf4b81.tar.gz",
       "hash": "sha256-qIeq90N3Mh8MBeZZp1QfBj33zTQNiv8k2vec1nFrdNY="
-    },
-    "xanmod": {
-      "type": "GitRelease",
-      "repository": {
-        "type": "GitLab",
-        "repo_path": "xanmod/linux",
-        "server": "https://gitlab.com/"
-      },
-      "pre_releases": false,
-      "version_upper_bound": null,
-      "release_prefix": null,
-      "submodules": false,
-      "version": "7.0.6-xanmod1",
-      "revision": "6ca2749bc3c51454a736ce01a80ca7ba76f89c1e",
-      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?sha=7.0.6-xanmod1",
-      "hash": "sha256-JKNYtxPXvUU2eTFK8GrjmTY2WnLPPtZJmkEfAycNxgg=",
-      "frozen": true
     }
   },
   "version": 8

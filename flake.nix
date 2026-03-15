@@ -20,6 +20,6 @@
 
       formatter = import ./internal/formatter.nix {inherit lib pkgs;};
 
-      legacyPackages = import ./internal/legacy-packages.nix {inherit lib pkgs sources;};
+      packages = import ./internal/packages.nix {inherit lib pkgs sources;};
     });
 }

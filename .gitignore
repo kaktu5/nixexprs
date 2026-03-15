@@ -2,11 +2,17 @@
 !/**/
 
 !/internal/**/*.nix
-!/npins/**/*.{json,nix}
-!/pkgs/**/*.{json,nix,patch}
+!/npins/default.json
+!/npins/sources.json
 
-!/.envrc
+!/pkgs/**/*.json
+!/pkgs/**/*.nix
+!/pkgs/**/*.nu
+!/pkgs/**/*.patch
+
+!/.cade
 !/.gitattributes
 !/.gitignore
-!/flake.{lock,nix}
+!/flake.lock
+!/flake.nix
 !/license

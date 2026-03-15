@@ -7,11 +7,12 @@
 in
   writeShellApplication {
     name = "nixexprs-nix3-fmt-wrapper";
+
     runtimeInputs = attrValues {
-      inherit (pkgs) alejandra fd mdformat;
+      inherit (pkgs) alejandra fd;
     };
+
     text = ''
-      fd "$@" -t f -e md -X mdformat --wrap 120 '{}'
       fd "$@" -t f -e nix -E npins/default.nix -X alejandra --quiet '{}'
     '';
   }
