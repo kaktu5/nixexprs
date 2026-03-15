@@ -1,5 +1,21 @@
 {
   "pins": {
+    "breezex-cursor": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "ful1e5",
+        "repo": "BreezeX_Cursor"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v2.0.1",
+      "revision": "912514f31a4a52b59dcd87d8d103443c5afb99eb",
+      "url": "https://api.github.com/repos/ful1e5/BreezeX_Cursor/tarball/refs/tags/v2.0.1",
+      "hash": "sha256-P9LgQb3msq6YydK5RIk5yykUd9SL2GQbC4aH4F8LUF0="
+    },
     "btop": {
       "type": "GitRelease",
       "repository": {
