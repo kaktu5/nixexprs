@@ -67,8 +67,8 @@
     "nixpkgs": {
       "type": "Channel",
       "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre977467.4c1018dae018/nixexprs.tar.xz",
-      "hash": "sha256-WGjBfvXv/mcg5yBg+AtK1Q3FHyXfjAAeJROmg7DLYfM="
+      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre990025.15f4ee454b1d/nixexprs.tar.xz",
+      "hash": "sha256-fN6ynMvcdwPDB09LpWJNO5ogu+HFydrBWXJywoI/NNg="
     },
     "space-mono": {
       "type": "Git",
@@ -82,6 +82,22 @@
       "revision": "329858c2c4dbd3476f972a4ae00624b018cf4b81",
       "url": "https://github.com/googlefonts/spacemono/archive/329858c2c4dbd3476f972a4ae00624b018cf4b81.tar.gz",
       "hash": "sha256-qIeq90N3Mh8MBeZZp1QfBj33zTQNiv8k2vec1nFrdNY="
+    },
+    "xanmod": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitLab",
+        "repo_path": "xanmod/linux",
+        "server": "https://gitlab.com/"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "7.0.0-xanmod1",
+      "revision": "8a3d3ca5e43fe12413ee4f303c3fec0d15ac185e",
+      "url": "https://gitlab.com/api/v4/projects/xanmod%2Flinux/repository/archive.tar.gz?sha=7.0.0-xanmod1",
+      "hash": "sha256-wN+gXBUy70lPDTSO1BhwEcWmqidwIlP3FnD1JiXmmkk="
     }
   },
   "version": 7
