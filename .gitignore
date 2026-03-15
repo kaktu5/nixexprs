@@ -3,7 +3,7 @@
 
 !/internal/**/*.nix
 !/npins/**/*.{json,nix}
-!/pkgs/**/*.{json,nix}
+!/pkgs/**/*.{json,nix,patch}
 
 !/.envrc
 !/.gitattributes
