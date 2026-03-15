@@ -10,12 +10,11 @@
 
     inherit (lib.attrsets) mapAttrs zipAttrsWith;
     inherit (lib.lists) foldl';
-    inherit (lib.trivial) mergeAttrs;
 
     mapSystems = systems: f:
       systems
       |> map (s: f s |> mapAttrs (_: v: {${s} = v;}))
-      |> zipAttrsWith (_: foldl' mergeAttrs {});
+      |> zipAttrsWith (_: foldl' (a: b: a // b) {});
   in
     mapSystems (import systems) (system: let
       pkgs = import sources.nixpkgs {inherit system;};
