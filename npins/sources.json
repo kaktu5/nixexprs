@@ -64,12 +64,6 @@
       "url": "https://api.github.com/repos/whysobad/hyprland-preview-share-picker/tarball/v0.2.1",
       "hash": "sha256-LOHl7zCxTIDqHIZy8B/RZ76Phz/BKcdrNR4QhQkrcJA="
     },
-    "nixpkgs": {
-      "type": "Channel",
-      "name": "nixos-unstable",
-      "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre998534.d233902339c0/nixexprs.tar.xz",
-      "hash": "sha256-VdRy3A14M5vIE882DJcaaR+5wrss9Qsg4YNVbr7uj3k="
-    },
     "space-mono": {
       "type": "Git",
       "repository": {
@@ -101,5 +95,5 @@
       "frozen": true
     }
   },
-  "version": 7
+  "version": 8
 }
