@@ -26,7 +26,7 @@ in
     installPhase = ''
       runHook preInstall
 
-      echo "${finalAttrs.pname} should not be installed into environments. Please use programs.steam.extraCompatPackages instead." > $out
+      echo '${finalAttrs.pname} should not be installed into environments. Please use programs.steam.extraCompatPackages instead.' > $out
 
       mkdir $steamcompattool
       ln -s $src/* $steamcompattool
@@ -38,7 +38,7 @@ in
 
     preFixup = ''
       substituteInPlace "$steamcompattool/compatibilitytool.vdf" \
-        --replace-fail "dwproton-${finalAttrs.version}-x86_64" "${steamDisplayName}"
+        --replace-fail "dwproton-${finalAttrs.version}-x86_64" '${steamDisplayName}'
     '';
 
     meta = {
