@@ -22,7 +22,10 @@ in
     version = removePrefix "v" btop.version;
 
     src = btop;
-    patches = [./0001-shorten-process-command-paths.patch];
+    patches = [
+      ./collapse-process-tree-branches.patch
+      ./shorten-process-command-paths.patch
+    ];
 
     nativeBuildInputs = [cmake] ++ optional cudaSupport autoAddDriverRunpath;
 

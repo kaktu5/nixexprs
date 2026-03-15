@@ -1,0 +1,40 @@
+From 78ad667f41adda55cba5f30afdba3587d780bb8a Mon Sep 17 00:00:00 2001
+From: kaktu5 <108426150+kaktu5@users.noreply.github.com>
+Date: Sun, 15 Mar 2026 17:59:33 +0100
+Subject: [PATCH] collapse process tree branches past depth 2
+
+---
+ src/btop_shared.cpp | 4 ++++
+ src/btop_shared.hpp | 1 +
+ 2 files changed, 5 insertions(+)
+
+diff --git a/src/btop_shared.cpp b/src/btop_shared.cpp
+index 0990fe6..341a89e 100644
+--- a/src/btop_shared.cpp
++++ b/src/btop_shared.cpp
+@@ -211,6 +211,10 @@ bool set_priority(pid_t pid, int priority) {
+ 		else if (cur_proc.filtered) cur_proc.filtered = false;
+ 
+ 		cur_proc.depth = cur_depth;
++		if (cur_depth >= 2 && !cur_proc.auto_collapsed) {
++			cur_proc.collapsed = true;
++			cur_proc.auto_collapsed = true;
++		}
+ 
+ 		//? Set tree index position for process if not filtered out or currently in a collapsed sub-tree
+ 		out_procs.push_back({ cur_proc, {} });
+diff --git a/src/btop_shared.hpp b/src/btop_shared.hpp
+index 96f4de3..3b0c377 100644
+--- a/src/btop_shared.hpp
++++ b/src/btop_shared.hpp
+@@ -415,6 +415,7 @@ namespace Proc {
+ 		size_t tree_index{};
+ 		bool collapsed{};
+ 		bool filtered{};
++		bool auto_collapsed{};
+ 	};
+ 
+ 	//* Container for process info box
+-- 
+2.51.2
+
