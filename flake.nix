@@ -1,7 +1,10 @@
 {
   inputs.nixpkgs.url = "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz";
 
-  outputs = {nixpkgs, ...}: let
+  outputs = {
+    self,
+    nixpkgs,
+  }: let
     sources = import ./npins;
 
     inherit (nixpkgs) lib;
@@ -21,5 +24,10 @@
       formatter = import ./internal/formatter.nix {inherit lib pkgs;};
 
       packages = import ./internal/packages.nix {inherit lib pkgs sources;};
-    });
+    })
+    // {
+      overlays.default = _: prev: let
+        inherit (prev.stdenv.hostPlatform) system;
+      in {kkts = self.packages.${system};};
+    };
 }
