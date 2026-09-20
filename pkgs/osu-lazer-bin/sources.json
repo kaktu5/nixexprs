@@ -1,12 +1,12 @@
 {
   "lazer": {
-    "version": "2026.804.2-lazer",
-    "url": "https://github.com/ppy/osu/releases/download/2026.804.2-lazer/osu.AppImage",
-    "hash": "sha256-0K/dyvIwrlBzcexYDCCilNknJdEZja1OTfAotP6MvjY="
+    "version": "2026.920.0-lazer",
+    "url": "https://github.com/ppy/osu/releases/download/2026.920.0-lazer/osu.AppImage",
+    "hash": "sha256-D+iFOmBRx/wTfFHvg83stol+hl4SNES2DiC4L5pWYGw="
   },
   "tachyon": {
-    "version": "2026.821.0-tachyon",
-    "url": "https://github.com/ppy/osu/releases/download/2026.821.0-tachyon/osu.AppImage",
-    "hash": "sha256-JOcYz0gARrJziJDkNMweWC1AloToDGC+84Suwe311/U="
+    "version": "2026.918.0-tachyon",
+    "url": "https://github.com/ppy/osu/releases/download/2026.918.0-tachyon/osu.AppImage",
+    "hash": "sha256-4wwtNWDqghwuJyvKz8pXuy0UfKAlwamV7UW82im6CFQ="
   }
 }
